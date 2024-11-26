@@ -12,21 +12,22 @@ class CommentWidget extends StatelessWidget {
   final Function(String, String) onReply;
 
   const CommentWidget({
+    Key? key,
     required this.comment,
     required this.momentId,
     required this.onReply,
-  });
+  }) : super(key: key);
 
-  @override
+   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(20),
         child: BackdropFilter(
           filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
           child: Container(
-            padding: EdgeInsets.all(16),
+            padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
               color: Colors.white.withOpacity(0.1),
               borderRadius: BorderRadius.circular(20),
