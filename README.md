@@ -1,6 +1,6 @@
-# soulplan_ai_fun_date_ideas
+# soul
 
-AI Date Planner with Emotional Insight Concept
+Adate
 
 ## Getting Started
 
