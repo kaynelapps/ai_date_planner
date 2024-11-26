@@ -1,3 +1,9 @@
+Testing
+19s
+
+
+
+ResultsLog
 == QA ==
 
 > flutter analyze
@@ -126,7 +132,6 @@ warning • The left operand can't be null, so the right operand is never execut
    info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:122:20 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:129:11 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:140:18 • undefined_identifier
-   info • Don't use 'BuildContext's across async gaps • lib/screens/account_settings_screen.dart:155:19 • use_build_context_synchronously
    info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:175:15 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:183:21 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:188:36 • prefer_const_constructors
@@ -138,22 +143,12 @@ warning • The left operand can't be null, so the right operand is never execut
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:216:11 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:226:18 • undefined_identifier
    info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:235:44 • prefer_const_constructors
-   info • Don't use 'BuildContext's across async gaps • lib/screens/account_settings_screen.dart:244:30 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/account_settings_screen.dart:245:38 • use_build_context_synchronously
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:257:18 • undefined_identifier
    info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:266:44 • prefer_const_constructors
-   info • Don't use 'BuildContext's across async gaps • lib/screens/account_settings_screen.dart:276:32 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/account_settings_screen.dart:277:40 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/account_settings_screen.dart:281:40 • use_build_context_synchronously
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:294:18 • undefined_identifier
    info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:304:44 • prefer_const_constructors
-   info • Don't use 'BuildContext's across async gaps • lib/screens/account_settings_screen.dart:314:32 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/account_settings_screen.dart:315:40 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/account_settings_screen.dart:319:40 • use_build_context_synchronously
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:332:18 • undefined_identifier
-   info • Don't use 'BuildContext's across async gaps • lib/screens/account_settings_screen.dart:346:30 • use_build_context_synchronously
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/anniversary_date_detail_screen.dart:13:9 • use_key_in_widget_constructors
-   info • Invalid use of a private type in a public API • lib/screens/anniversary_date_detail_screen.dart:16:3 • library_private_types_in_public_api
    info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:59:16 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:101:16 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:107:21 • prefer_const_constructors
@@ -190,7 +185,6 @@ warning • The left operand can't be null, so the right operand is never execut
 warning • Unused import: 'package:flutter_markdown/flutter_markdown.dart' • lib/screens/at_home_suggestion_screen.dart:4:8 • unused_import
    info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/at_home_suggestion_screen.dart:5:8 • unnecessary_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/at_home_suggestion_screen.dart:7:8 • uri_does_not_exist
-   info • Invalid use of a private type in a public API • lib/screens/at_home_suggestion_screen.dart:15:3 • library_private_types_in_public_api
   error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:39:19 • undefined_identifier
    info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:54:17 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:54:51 • prefer_const_constructors
@@ -225,7 +219,6 @@ warning • Unused import: 'package:flutter_markdown/flutter_markdown.dart' • 
    info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:181:20 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:186:22 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/birthday_date_detail_screen.dart:14:9 • use_key_in_widget_constructors
-   info • Invalid use of a private type in a public API • lib/screens/birthday_date_detail_screen.dart:17:3 • library_private_types_in_public_api
    info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:60:16 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:102:16 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:108:21 • prefer_const_constructors
@@ -274,7 +267,6 @@ warning • Unused import: 'package:flutter_markdown/flutter_markdown.dart' • 
    info • Use 'const' with the constructor to improve performance • lib/screens/challenges_screen.dart:232:17 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/challenges_screen.dart:238:28 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/christmas_date_detail_screen.dart:13:9 • use_key_in_widget_constructors
-   info • Invalid use of a private type in a public API • lib/screens/christmas_date_detail_screen.dart:16:3 • library_private_types_in_public_api
    info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:59:16 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:101:16 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:107:21 • prefer_const_constructors
@@ -319,7 +311,6 @@ warning • Unused import: 'package:flutter_markdown/flutter_markdown.dart' • 
    info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:207:22 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:235:23 • prefer_const_constructors
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/details_screen.dart:7:8 • uri_does_not_exist
-   info • Invalid use of a private type in a public API • lib/screens/details_screen.dart:13:3 • library_private_types_in_public_api
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:32:12 • undefined_identifier
    info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:42:17 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:42:51 • prefer_const_constructors
@@ -366,7 +357,6 @@ warning • Unused import: 'package:flutter_markdown/flutter_markdown.dart' • 
    info • Don't invoke 'print' in production code • lib/screens/details_screen.dart:340:7 • avoid_print
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/favorite_screen.dart:6:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/favorite_screen.dart:8:7 • use_key_in_widget_constructors
-   info • Invalid use of a private type in a public API • lib/screens/favorite_screen.dart:10:3 • library_private_types_in_public_api
    info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:32:18 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:40:23 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:47:13 • prefer_const_constructors
@@ -396,7 +386,6 @@ warning • Unused import: 'package:flutter_markdown/flutter_markdown.dart' • 
 warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/intermediate_screen.dart:2:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/intermediate_screen.dart:7:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/intermediate_screen.dart:11:7 • use_key_in_widget_constructors
-   info • Invalid use of a private type in a public API • lib/screens/intermediate_screen.dart:13:3 • library_private_types_in_public_api
   error • Undefined name 'AppLocalizations' • lib/screens/intermediate_screen.dart:64:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/intermediate_screen.dart:65:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/intermediate_screen.dart:66:7 • undefined_identifier
@@ -405,7 +394,6 @@ warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/intermed
    info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:78:22 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:84:16 • prefer_const_constructors
    info • Don't invoke 'print' in production code • lib/screens/intermediate_screen.dart:90:38 • avoid_print
-   info • Don't use 'BuildContext's across async gaps • lib/screens/intermediate_screen.dart:98:20 • use_build_context_synchronously
    info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:132:17 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:132:51 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/intermediate_screen.dart:136:11 • undefined_identifier
@@ -426,7 +414,6 @@ warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/intermed
 warning • Unused import: '../screens/main_screen.dart' • lib/screens/language_selection_screen.dart:10:8 • unused_import
 warning • Unused import: '../services/auth_service.dart' • lib/screens/language_selection_screen.dart:13:8 • unused_import
    info • Constructors in '@immutable' classes should be declared as 'const' • lib/screens/language_selection_screen.dart:19:3 • prefer_const_constructors_in_immutables
-   info • Invalid use of a private type in a public API • lib/screens/language_selection_screen.dart:22:3 • library_private_types_in_public_api
    info • Don't invoke 'print' in production code • lib/screens/language_selection_screen.dart:52:5 • avoid_print
    info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:69:21 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:70:27 • prefer_const_constructors
@@ -444,7 +431,6 @@ warning • Unused import: '../services/auth_service.dart' • lib/screens/langu
    info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:209:24 • prefer_const_constructors
 warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/loading_screen.dart:2:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/loading_screen.dart:6:8 • uri_does_not_exist
-   info • Invalid use of a private type in a public API • lib/screens/loading_screen.dart:24:3 • library_private_types_in_public_api
    info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:45:20 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/loading_screen.dart:76:18 • undefined_identifier
    info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:88:22 • prefer_const_constructors
@@ -473,7 +459,6 @@ warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/loading_
   error • Undefined name 'AppLocalizations' • lib/screens/loading_screen.dart:224:23 • undefined_identifier
 warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/loading_screen1.dart:2:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/loading_screen1.dart:7:8 • uri_does_not_exist
-   info • Invalid use of a private type in a public API • lib/screens/loading_screen1.dart:24:3 • library_private_types_in_public_api
   error • Undefined name 'AppLocalizations' • lib/screens/loading_screen1.dart:74:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/loading_screen1.dart:75:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/loading_screen1.dart:76:7 • undefined_identifier
@@ -483,7 +468,6 @@ warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/loading_
    info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:92:20 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:100:16 • prefer_const_constructors
    info • Don't invoke 'print' in production code • lib/screens/loading_screen1.dart:110:11 • avoid_print
-   info • Don't use 'BuildContext's across async gaps • lib/screens/loading_screen1.dart:121:20 • use_build_context_synchronously
    info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:172:15 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:172:49 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/loading_screen1.dart:176:13 • undefined_identifier
@@ -503,10 +487,7 @@ warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/loading_
    info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:241:19 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:249:20 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/main_screen.dart:9:7 • use_key_in_widget_constructors
-   info • Invalid use of a private type in a public API • lib/screens/main_screen.dart:10:26 • library_private_types_in_public_api
-   info • Invalid use of a private type in a public API • lib/screens/main_screen.dart:13:3 • library_private_types_in_public_api
    info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:25:5 • prefer_const_constructors
-   info • Don't use 'BuildContext's across async gaps • lib/screens/main_screen.dart:46:9 • use_build_context_synchronously
    info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:64:19 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:68:21 • prefer_const_constructors
    info • Use 'const' literals as arguments to constructors of '@immutable' classes • lib/screens/main_screen.dart:70:22 • prefer_const_literals_to_create_immutables
@@ -525,7 +506,6 @@ warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/loading_
    info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/moment_detail_screen.dart:7:8 • unnecessary_import
 warning • Unused import: '../widgets/glass_button.dart' • lib/screens/moment_detail_screen.dart:12:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/moment_detail_screen.dart:15:8 • uri_does_not_exist
-   info • Invalid use of a private type in a public API • lib/screens/moment_detail_screen.dart:29:3 • library_private_types_in_public_api
    info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:46:28 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:75:15 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:79:9 • undefined_identifier
@@ -581,19 +561,14 @@ warning • Unused import: '../widgets/glass_button.dart' • lib/screens/moment
   error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:545:15 • undefined_identifier
    info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:546:49 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/moment_loading_screen.dart:10:7 • use_key_in_widget_constructors
-   info • Invalid use of a private type in a public API • lib/screens/moment_loading_screen.dart:12:3 • library_private_types_in_public_api
-   info • Don't use 'BuildContext's across async gaps • lib/screens/moment_loading_screen.dart:34:20 • use_build_context_synchronously
    info • Use 'const' with the constructor to improve performance • lib/screens/moment_loading_screen.dart:35:49 • prefer_const_constructors
-   info • Don't use 'BuildContext's across async gaps • lib/screens/moment_loading_screen.dart:38:28 • use_build_context_synchronously
    info • Use 'const' with the constructor to improve performance • lib/screens/moment_loading_screen.dart:45:26 • prefer_const_constructors
-   info • Don't use 'BuildContext's across async gaps • lib/screens/moment_loading_screen.dart:63:20 • use_build_context_synchronously
    info • Use 'const' with the constructor to improve performance • lib/screens/moment_loading_screen.dart:94:28 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/moment_loading_screen.dart:103:23 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/moment_loading_screen.dart:104:37 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/moment_loading_screen.dart:106:23 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/moment_loading_screen.dart:116:23 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/new_year_date_detail_screen.dart:13:9 • use_key_in_widget_constructors
-   info • Invalid use of a private type in a public API • lib/screens/new_year_date_detail_screen.dart:16:3 • library_private_types_in_public_api
    info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:59:16 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:101:16 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:107:21 • prefer_const_constructors
@@ -629,7 +604,6 @@ warning • Unused import: '../widgets/glass_button.dart' • lib/screens/moment
    info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_screen.dart:237:23 • prefer_const_constructors
 warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_board.dart:3:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/on_board.dart:5:8 • uri_does_not_exist
-   info • Invalid use of a private type in a public API • lib/screens/on_board.dart:19:3 • library_private_types_in_public_api
    info • The private field _admobNativeAds could be 'final' • lib/screens/on_board.dart:25:19 • prefer_final_fields
    info • The private field _isAdMobNativeAdLoaded could be 'final' • lib/screens/on_board.dart:27:14 • prefer_final_fields
    info • The private field _isFacebookNativeAdLoaded could be 'final' • lib/screens/on_board.dart:28:14 • prefer_final_fields
@@ -640,8 +614,6 @@ warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_b
   error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:44:18 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:45:24 • undefined_identifier
    info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:88:16 • prefer_const_constructors
-   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/on_board.dart:108:11 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/on_board.dart:114:11 • use_build_context_synchronously
    info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:143:16 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:149:21 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:158:13 • undefined_identifier
@@ -663,7 +635,6 @@ warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_b
    info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:311:23 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:329:11 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:330:11 • prefer_const_constructors
-   info • Invalid use of a private type in a public API • lib/screens/place_details_screen.dart:15:3 • library_private_types_in_public_api
    info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:49:15 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:49:49 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:57:12 • prefer_const_constructors
@@ -681,7 +652,6 @@ warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_b
    info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:123:26 • prefer_const_constructors
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/place_details_screen.dart:143:12 • sized_box_for_whitespace
    info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:149:25 • prefer_const_constructors
-   info • The 'children' argument should be last in widget constructor invocations • lib/screens/place_details_screen.dart:151:9 • sort_child_properties_last
    info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:157:22 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:157:47 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:162:20 • prefer_const_constructors
@@ -703,7 +673,6 @@ warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_b
    info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:307:18 • prefer_const_constructors
    info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/places_screen.dart:8:8 • unnecessary_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/places_screen.dart:10:8 • uri_does_not_exist
-   info • Invalid use of a private type in a public API • lib/screens/places_screen.dart:27:3 • library_private_types_in_public_api
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:44:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:45:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:46:7 • undefined_identifier
@@ -766,7 +735,6 @@ warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_b
    info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/questionnaire_screen.dart:11:8 • unnecessary_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/questionnaire_screen.dart:12:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/questionnaire_screen.dart:14:7 • use_key_in_widget_constructors
-   info • Invalid use of a private type in a public API • lib/screens/questionnaire_screen.dart:17:3 • library_private_types_in_public_api
 warning • The value of the field '_fadeAnimation' isn't used • lib/screens/questionnaire_screen.dart:27:26 • unused_field
   error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:46:16 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:48:16 • undefined_identifier
@@ -808,12 +776,8 @@ warning • The value of the field '_fadeAnimation' isn't used • lib/screens/q
    info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:350:19 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:411:17 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:446:15 • prefer_const_constructors
-   info • Don't use 'BuildContext's across async gaps • lib/screens/questionnaire_screen.dart:467:9 • use_build_context_synchronously
    info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:475:25 • prefer_const_constructors
-   info • Don't use 'BuildContext's across async gaps • lib/screens/questionnaire_screen.dart:489:29 • use_build_context_synchronously
    info • Don't invoke 'print' in production code • lib/screens/questionnaire_screen.dart:496:7 • avoid_print
-   info • Don't use 'BuildContext's across async gaps • lib/screens/questionnaire_screen.dart:497:21 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/questionnaire_screen.dart:498:28 • use_build_context_synchronously
    info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:499:9 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:499:27 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:526:25 • prefer_const_constructors
@@ -823,7 +787,6 @@ warning • The value of the field '_fadeAnimation' isn't used • lib/screens/q
 warning • Duplicate import • lib/screens/results_screen.dart:9:8 • duplicate_import
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/results_screen.dart:15:3 • use_key_in_widget_constructors
    info • Constructors in '@immutable' classes should be declared as 'const' • lib/screens/results_screen.dart:15:3 • prefer_const_constructors_in_immutables
-   info • Invalid use of a private type in a public API • lib/screens/results_screen.dart:18:3 • library_private_types_in_public_api
    info • Don't invoke 'print' in production code • lib/screens/results_screen.dart:72:7 • avoid_print
    info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:101:17 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:101:51 • prefer_const_constructors
@@ -871,17 +834,13 @@ warning • Duplicate import • lib/screens/results_screen.dart:9:8 • duplica
   error • Undefined name 'AppLocalizations' • lib/screens/results_screen.dart:403:12 • undefined_identifier
    info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/share_moments_screen.dart:7:8 • unnecessary_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/share_moments_screen.dart:16:8 • uri_does_not_exist
-   info • Invalid use of a private type in a public API • lib/screens/share_moments_screen.dart:22:3 • library_private_types_in_public_api
    info • 'desiredAccuracy' is deprecated and shouldn't be used. use settings parameter with AndroidSettings, AppleSettings, WebSettings, or LocationSettings • lib/screens/share_moments_screen.dart:39:9 • deprecated_member_use
   error • Undefined name 'AppLocalizations' • lib/screens/share_moments_screen.dart:66:21 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/share_moments_screen.dart:67:23 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/share_moments_screen.dart:70:25 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/share_moments_screen.dart:74:25 • undefined_identifier
-   info • Don't use 'BuildContext's across async gaps • lib/screens/share_moments_screen.dart:93:52 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/share_moments_screen.dart:96:43 • use_build_context_synchronously
    info • Don't invoke 'print' in production code • lib/screens/share_moments_screen.dart:99:7 • avoid_print
    info • Don't invoke 'print' in production code • lib/screens/share_moments_screen.dart:101:7 • avoid_print
-   info • Don't use 'BuildContext's across async gaps • lib/screens/share_moments_screen.dart:126:7 • use_build_context_synchronously
   error • Undefined name 'AppLocalizations' • lib/screens/share_moments_screen.dart:151:18 • undefined_identifier
    info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:153:16 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:159:21 • prefer_const_constructors
@@ -906,13 +865,7 @@ warning • Duplicate import • lib/screens/results_screen.dart:9:8 • duplica
    info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:302:26 • prefer_const_constructors
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/sign_in_screen.dart:7:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/sign_in_screen.dart:15:7 • use_key_in_widget_constructors
-   info • Invalid use of a private type in a public API • lib/screens/sign_in_screen.dart:17:3 • library_private_types_in_public_api
-   info • Don't use 'BuildContext's across async gaps • lib/screens/sign_in_screen.dart:54:30 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/sign_in_screen.dart:72:9 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/sign_in_screen.dart:80:26 • use_build_context_synchronously
    info • Don't invoke 'print' in production code • lib/screens/sign_in_screen.dart:139:7 • avoid_print
-   info • Don't use 'BuildContext's across async gaps • lib/screens/sign_in_screen.dart:161:28 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/sign_in_screen.dart:183:28 • use_build_context_synchronously
   error • Undefined name 'AppLocalizations' • lib/screens/sign_in_screen.dart:194:18 • undefined_identifier
    info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:206:20 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:211:26 • prefer_const_constructors
@@ -946,11 +899,9 @@ warning • Duplicate import • lib/screens/results_screen.dart:9:8 • duplica
    info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:369:11 • prefer_const_constructors
   error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:379:27 • undefined_class
    info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:385:18 • prefer_const_constructors
-   info • Invalid use of a private type in a public API • lib/screens/splash_screen.dart:15:3 • library_private_types_in_public_api
    info • The declaration '_loadAdmobInterstitial' isn't referenced • lib/screens/splash_screen.dart:72:8 • unused_element
    info • Use 'const' with the constructor to improve performance • lib/screens/splash_screen.dart:77:16 • prefer_const_constructors
    info • Don't invoke 'print' in production code • lib/screens/splash_screen.dart:86:11 • avoid_print
-   info • The local variable '_seen' starts with an underscore • lib/screens/splash_screen.dart:119:10 • no_leading_underscores_for_local_identifiers
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/splash_screen.dart:142:13 • sized_box_for_whitespace
    info • Use 'const' with the constructor to improve performance • lib/screens/splash_screen.dart:192:32 • prefer_const_constructors
    info • Use 'const' literals as arguments to constructors of '@immutable' classes • lib/screens/splash_screen.dart:204:38 • prefer_const_literals_to_create_immutables
@@ -1010,8 +961,6 @@ warning • The value of the local variable 'l10n' isn't used • lib/screens/st
   error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:121:38 • undefined_identifier
    info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:131:30 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:132:26 • prefer_const_constructors
-   info • Don't use 'BuildContext's across async gaps • lib/screens/terms_of_service_screen.dart:141:26 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/terms_of_service_screen.dart:142:40 • use_build_context_synchronously
   error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:145:13 • undefined_identifier
    info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:153:9 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:157:13 • undefined_identifier
@@ -1023,7 +972,6 @@ warning • The value of the local variable 'l10n' isn't used • lib/screens/st
    info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:216:24 • prefer_const_constructors
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/upload_moment_screen.dart:11:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/upload_moment_screen.dart:14:7 • use_key_in_widget_constructors
-   info • Invalid use of a private type in a public API • lib/screens/upload_moment_screen.dart:16:3 • library_private_types_in_public_api
    info • 'desiredAccuracy' is deprecated and shouldn't be used. use settings parameter with AndroidSettings, AppleSettings, WebSettings, or LocationSettings • lib/screens/upload_moment_screen.dart:35:9 • deprecated_member_use
    info • Don't invoke 'print' in production code • lib/screens/upload_moment_screen.dart:41:7 • avoid_print
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:52:21 • undefined_identifier
@@ -1040,29 +988,16 @@ warning • The value of the local variable 'l10n' isn't used • lib/screens/st
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:131:30 • undefined_identifier
    info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:141:19 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:143:27 • undefined_identifier
-   info • Don't use 'BuildContext's across async gaps • lib/screens/upload_moment_screen.dart:146:37 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/upload_moment_screen.dart:174:37 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/upload_moment_screen.dart:175:37 • use_build_context_synchronously
    info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:193:26 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:202:21 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:202:59 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:203:21 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:205:23 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:223:13 • undefined_identifier
-   info • Don't use 'BuildContext's across async gaps • lib/screens/upload_moment_screen.dart:234:28 • use_build_context_synchronously
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:237:13 • undefined_identifier
-   info • Don't use 'BuildContext's across async gaps • lib/screens/upload_moment_screen.dart:237:33 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/upload_moment_screen.dart:250:41 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/upload_moment_screen.dart:267:20 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/upload_moment_screen.dart:269:28 • use_build_context_synchronously
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:272:13 • undefined_identifier
-   info • Don't use 'BuildContext's across async gaps • lib/screens/upload_moment_screen.dart:272:33 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/upload_moment_screen.dart:278:20 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps • lib/screens/upload_moment_screen.dart:279:28 • use_build_context_synchronously
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:282:13 • undefined_identifier
-   info • Don't use 'BuildContext's across async gaps • lib/screens/upload_moment_screen.dart:282:33 • use_build_context_synchronously
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/valentines_date_detail_screen.dart:13:9 • use_key_in_widget_constructors
-   info • Invalid use of a private type in a public API • lib/screens/valentines_date_detail_screen.dart:16:3 • library_private_types_in_public_api
    info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:59:16 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:101:16 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:107:21 • prefer_const_constructors
@@ -1115,7 +1050,6 @@ warning • The value of the local variable 'userCredential' isn't used • lib/
    info • Don't invoke 'print' in production code • lib/services/foursquare_service.dart:38:7 • avoid_print
    info • Don't invoke 'print' in production code • lib/services/foursquare_service.dart:61:7 • avoid_print
    info • Don't invoke 'print' in production code • lib/services/foursquare_service.dart:107:7 • avoid_print
-   info • Use interpolation to compose strings and values • lib/services/foursquare_service.dart:153:28 • prefer_interpolation_to_compose_strings
    info • Don't invoke 'print' in production code • lib/services/foursquare_service.dart:162:7 • avoid_print
    info • Don't invoke 'print' in production code • lib/services/foursquare_service.dart:179:7 • avoid_print
    info • Don't invoke 'print' in production code • lib/services/gemini_service.dart:47:7 • avoid_print
@@ -1171,9 +1105,6 @@ warning • The value of the local variable 'isPriceSensitive' isn't used • li
    info • Use 'const' with the constructor to improve performance • lib/widgets/charging_route.dart:48:25 • prefer_const_constructors
 warning • Unused import: 'glass_button.dart' • lib/widgets/comment_input.dart:6:8 • unused_import
 warning • Unused import: '../models/moment.dart' • lib/widgets/comment_input.dart:7:8 • unused_import
-   info • Invalid use of a private type in a public API • lib/widgets/comment_input.dart:25:3 • library_private_types_in_public_api
-   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/widgets/comment_input.dart:40:41 • use_build_context_synchronously
-   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/widgets/comment_input.dart:48:41 • use_build_context_synchronously
    info • Use 'const' with the constructor to improve performance • lib/widgets/comment_widget.dart:42:21 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/widgets/comment_widget.dart:50:21 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/widgets/comment_widget.dart:60:17 • prefer_const_constructors
@@ -1200,7 +1131,6 @@ warning • Unused import: '../models/moment.dart' • lib/widgets/comment_input
    info • Use 'const' with the constructor to improve performance • lib/widgets/date_card.dart:128:28 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/widgets/glass_button.dart:27:24 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/widgets/image_preview_widget.dart:23:21 • prefer_const_constructors
-   info • Don't use 'BuildContext's across async gaps • lib/widgets/nickname_selection_popup.dart:42:30 • use_build_context_synchronously
   error • Invalid constant value • lib/widgets/nickname_selection_popup.dart:109:41 • invalid_constant
    info • Unnecessary 'const' keyword • lib/widgets/nickname_selection_popup.dart:111:45 • unnecessary_const
    info • Use 'const' with the constructor to improve performance • lib/widgets/nickname_selection_popup.dart:136:39 • prefer_const_constructors
@@ -1208,14 +1138,87 @@ warning • Unused import: '../models/moment.dart' • lib/widgets/comment_input
    info • Use 'const' with the constructor to improve performance • lib/widgets/nickname_selection_popup.dart:141:42 • prefer_const_constructors
    info • Use 'const' with the constructor to improve performance • lib/widgets/nickname_selection_popup.dart:142:49 • prefer_const_constructors
 
-1204 issues found. (ran in 11.6s)
+1128 issues found. (ran in 11.0s)
 
 > flutter test --machine
-{"protocolVersion":"0.1.1","runnerVersion":null,"pid":2497,"type":"start","time":0}
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":2496,"type":"start","time":0}
 {"suite":{"id":0,"platform":"vm","path":"/Users/builder/clone/test/widget_test.dart"},"type":"suite","time":0}
-{"test":{"id":1,"name":"loading /Users/builder/clone/test/widget_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":1}
-{"count":1,"time":4,"type":"allSuites"}
+{"test":{"id":1,"name":"loading /Users/builder/clone/test/widget_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":0}
+{"count":1,"time":3,"type":"allSuites"}
 
 [{"event":"test.startedProcess","params":{"vmServiceUri":null,"observatoryUri":null}}]
-{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":3968}
-{"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null}
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":3673}
+{"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":3674}
+{"test":{"id":3,"name":"Initial test","suiteID":0,"groupIDs":[2],"metadata":{"skip":false,"skipReason":null},"line":171,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":4,"root_column":3,"root_url":"file:///Users/builder/clone/test/widget_test.dart"},"type":"testStart","time":3674}
+{"testID":3,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3789}
+{"success":true,"type":"done","time":3796}
+
+
+QA failed :|
+Flutter analyze found issues.
+
+== QA failed, ending build ==
+
+
+Build failed :|
+Test run failed: Flutter analyze found issues.
+Apps
+Builds
+Teams
+Billing
+
+
+ai_date_planner
+github.com/kaynelapps/ai_date_planner
+Start new build
+Build overview
+
+ID:
+67465a1c9357e8df6e4d9a03
+Please provide this ID when you contact our support team
+Index:
+17
+Status:
+failed
+Workflow:
+Default Workflow
+Started by:
+Github webhook
+Started:
+4 minutes ago
+Nov 27th, 2024 at 00:30 CET
+Duration:
+2m 16s
+Machine:
+Mac mini M2
+Branch:
+main
+Commit:
+8d25a70
+Current configuration
+
+Flutter channel:
+stable
+Mode:
+release
+Xcode version:
+latest
+Build for:
+iOS
+Click on the build steps for details.
+
+Preparing build machine
+35s
+Fetching app sources
+5s
+Installing SDKs
+50s
+Installing dependencies
+24s
+Building iOS
+< 1s
+Publishing
+< 1s
+Cleaning up
+< 1s
+Test run failed: Flutter analyze found issues.
