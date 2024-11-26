@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 16.0.0+16
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=2.19.0 <4.0.0'
 dependencies:
   flutter:
     sdk: flutter
@@ -79,7 +79,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^1.0.4
   json_serializable: ^6.7.1
   build_runner: ^2.4.6
 
