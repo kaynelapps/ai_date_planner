@@ -10,11 +10,12 @@ class MomentCard extends StatelessWidget {
   final double? distance;
 
   const MomentCard({
+    Key? key,
     required this.moment,
     this.heightFactor = 1.0,
     this.onTap,
     this.distance,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +29,7 @@ class MomentCard extends StatelessWidget {
             BoxShadow(
               color: Colors.black.withOpacity(0.1),
               blurRadius: 8,
-              offset: Offset(0, 2),
+              offset: const Offset(0, 2),
             ),
           ],
         ),
@@ -43,7 +44,7 @@ class MomentCard extends StatelessWidget {
                 fit: BoxFit.cover,
                 placeholder: (context, url) => Container(
                   color: Colors.grey[200],
-                  child: Center(
+                  child: const Center(
                     child: CircularProgressIndicator(
                       valueColor: AlwaysStoppedAnimation<Color>(Color(0xFFE91C40)),
                     ),
@@ -56,7 +57,7 @@ class MomentCard extends StatelessWidget {
               left: 0,
               right: 0,
               child: Container(
-                padding: EdgeInsets.all(12),
+                padding: const EdgeInsets.all(12),
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     begin: Alignment.topCenter,
@@ -66,7 +67,7 @@ class MomentCard extends StatelessWidget {
                       Colors.black.withOpacity(0.7),
                     ],
                   ),
-                  borderRadius: BorderRadius.vertical(bottom: Radius.circular(20)),
+                  borderRadius: const BorderRadius.vertical(bottom: Radius.circular(20)),
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -82,11 +83,11 @@ class MomentCard extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                     ),
                     if (distance != null) ...[
-                      SizedBox(height: 4),
+                      const SizedBox(height: 4),
                       Row(
                         children: [
-                          Icon(Icons.location_on, size: 16, color: Colors.white),
-                          SizedBox(width: 4),
+                          const Icon(Icons.location_on, size: 16, color: Colors.white),
+                          const SizedBox(width: 4),
                           Text(
                             '${distance!.toStringAsFixed(1)} km',
                             style: GoogleFonts.lato(
