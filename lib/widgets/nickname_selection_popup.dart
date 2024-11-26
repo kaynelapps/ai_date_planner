@@ -7,11 +7,15 @@ import 'dart:ui';
 class NicknameSelectionPopup extends StatefulWidget {
   final Function(String) onNicknameConfirmed;
 
-  NicknameSelectionPopup({required this.onNicknameConfirmed});
+  const NicknameSelectionPopup({
+    Key? key,
+    required this.onNicknameConfirmed,
+  }) : super(key: key);
 
   @override
-  _NicknameSelectionPopupState createState() => _NicknameSelectionPopupState();
+  State<NicknameSelectionPopup> createState() => _NicknameSelectionPopupState();
 }
+
 
 class _NicknameSelectionPopupState extends State<NicknameSelectionPopup> {
   final _formKey = GlobalKey<FormState>();
