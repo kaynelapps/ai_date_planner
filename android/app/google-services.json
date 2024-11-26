@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "543297399935",
+    "firebase_url": "https://soulplan-dateplanner-default-rtdb.firebaseio.com",
+    "project_id": "soulplan-dateplanner",
+    "storage_bucket": "soulplan-dateplanner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543297399935:android:a00c55db93fc9f975da34a",
+        "android_client_info": {
+          "package_name": "com.aifun.dateideas.planadate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543297399935-iq1usbkk96s5qce6ba1584p3nqtqu6ti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aifun.dateideas.planadate",
+            "certificate_hash": "13c129fee8d746da8c786f036b9509820479ec4c"
+          }
+        },
+        {
+          "client_id": "543297399935-l8cpuqkg8ak80121k3mpdi8ik7bd3n7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aifun.dateideas.planadate",
+            "certificate_hash": "e15b8a1960b8b660fe640392f38bc5cfdcc6a774"
+          }
+        },
+        {
+          "client_id": "543297399935-uug9q6706igv30s40f0aibn4p4otduaj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aifun.dateideas.planadate",
+            "certificate_hash": "352e1a409ceb66a099ae8ca3fea2cece7a0c2188"
+          }
+        },
+        {
+          "client_id": "543297399935-1gkqlv0a4vf9qmbv6e4o512afnssium8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuglgklOUcCkyeKyUx_PtDvud3NWGj4-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543297399935-1gkqlv0a4vf9qmbv6e4o512afnssium8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "543297399935-p6uok0eef2r2nefrhsolqbuchsp9ancs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.aifun.dateideas.planadate"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

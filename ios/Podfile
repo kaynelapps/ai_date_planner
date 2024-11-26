@@ -1,0 +1,105 @@
+warn_for_unused_master_specs_repo = false
+platform :ios, '14.0'
+
+install! 'cocoapods',
+         :deterministic_uuids => false,
+         :generate_multiple_pod_projects => true,
+         :disable_input_output_paths => true,
+         :preserve_pod_file_structure => true,
+         :share_schemes_for_development_pods => true
+
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+
+project 'Runner', {
+  'Debug' => :debug,
+  'Profile' => :release,
+  'Release' => :release,
+}
+
+def flutter_root
+  generated_xcode_build_settings_path = File.expand_path(File.join('..', 'Flutter', 'Generated.xcconfig'), __FILE__)
+  unless File.exist?(generated_xcode_build_settings_path)
+    raise "#{generated_xcode_build_settings_path} must exist. If you're running pod install manually, make sure flutter pub get is executed first"
+  end
+
+  File.foreach(generated_xcode_build_settings_path) do |line|
+    matches = line.match(/FLUTTER_ROOT\=(.*)/)
+    return matches[1].strip if matches
+  end
+  raise "FLUTTER_ROOT not found in #{generated_xcode_build_settings_path}"
+end
+
+require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelper'), flutter_root)
+
+flutter_ios_podfile_setup
+
+target 'Runner' do
+  use_frameworks!
+  use_modular_headers!
+
+  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
+
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Crashlytics'
+  pod 'Firebase/AppCheck'
+
+  target 'RunnerTests' do
+    inherit! :search_paths
+  end
+end
+
+post_install do |installer|
+  flutter_post_install(installer) if defined?(flutter_post_install)
+
+  installer.pods_project.targets.each do |target|
+    target.build_phases.each do |build_phase|
+      if build_phase.respond_to?(:name) && build_phase.name.start_with?("[CP]")
+        build_phase.input_paths ||= []
+        build_phase.input_paths << "${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh"
+        build_phase.input_paths << "${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources.sh"
+
+        build_phase.output_paths ||= []
+        build_phase.output_paths << "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework"
+        build_phase.output_paths << "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car"
+      end
+    end
+
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
+      config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'i386'
+      config.build_settings['SWIFT_VERSION'] = '5.0'
+      config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+      config.build_settings['SWIFT_OPTIMIZATION_LEVEL'] = '-O'
+      config.build_settings['DEAD_CODE_STRIPPING'] = 'YES'
+      config.build_settings['ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES'] = 'YES'
+
+      config.build_settings['FRAMEWORK_SEARCH_PATHS'] ||= [
+        "$(inherited)",
+        "$(SRCROOT)/Flutter",
+        "${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter",
+        "${PODS_ROOT}/../Flutter",
+        "${PODS_CONFIGURATION_BUILD_DIR}/Flutter",
+        "${SRCROOT}/../.symlinks/flutter/ios"
+      ]
+
+      config.build_settings['HEADER_SEARCH_PATHS'] ||= [
+        "$(inherited)",
+        "${PODS_ROOT}/Headers/Public",
+        "${PODS_ROOT}/Headers/Public/Flutter",
+        "${SRCROOT}/../.symlinks/flutter/ios/Flutter.framework/Headers"
+      ]
+    end
+  end
+
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
+      end
+    end
+  end
+end
