@@ -4,68 +4,27 @@ Testing
 
 
 ResultsLog
+
 == QA ==
 
 > flutter analyze
-Analyzing clone...                                              
 
-   info • Use 'const' with the constructor to improve performance • lib/app_colors.dart:43:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/app_colors.dart:44:14 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/app_colors.dart:47:18 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/app_colors.dart:48:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/app_colors.dart:48:36 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/app_colors.dart:49:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/app_colors.dart:51:18 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/app_colors.dart:52:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/app_colors.dart:52:36 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/app_colors.dart:53:17 • prefer_const_constructors
+== QA ==
+
+> flutter analyze
+Analyzing clone...                                              Analyzing clone...                                              
+
 warning • Unused import: 'package:flutter/services.dart' • lib/main.dart:3:8 • unused_import
 warning • Unused import: 'package:soulplan_ai_fun_date_ideas/services/firebase_service.dart' • lib/main.dart:13:8 • unused_import
 warning • Unused import: 'package:firebase_storage/firebase_storage.dart' • lib/main.dart:16:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/main.dart:22:8 • uri_does_not_exist
    info • Don't invoke 'print' in production code • lib/main.dart:73:5 • avoid_print
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:76:10 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:89:16 • prefer_const_constructors
    info • Don't invoke 'print' in production code • lib/main.dart:95:11 • avoid_print
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:106:16 • prefer_const_constructors
    info • Don't invoke 'print' in production code • lib/main.dart:113:5 • avoid_print
    info • Don't invoke 'print' in production code • lib/main.dart:125:5 • avoid_print
   error • The values in a const list literal must be constants • lib/main.dart:166:17 • non_constant_list_element
   error • Undefined name 'AppLocalizations' • lib/main.dart:166:17 • undefined_identifier
-   info • Use 'const' literals as arguments to constructors of '@immutable' classes • lib/main.dart:171:33 • prefer_const_literals_to_create_immutables
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:172:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:173:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:174:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:175:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:176:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:177:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:178:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:179:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:180:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:181:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:182:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:183:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:184:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:185:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:186:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:187:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:188:17 • prefer_const_constructors
 warning • The left operand can't be null, so the right operand is never executed • lib/main.dart:190:48 • dead_null_aware_expression
-   info • Use 'const' with the constructor to improve performance • lib/main.dart:197:41 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/mixins/glass_dialog_mixin.dart:32:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/mixins/glass_dialog_mixin.dart:49:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/mixins/glass_dialog_mixin.dart:57:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/mixins/glass_dialog_mixin.dart:87:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/mixins/glass_dialog_mixin_input.dart:32:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/mixins/glass_dialog_mixin_input.dart:49:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/mixins/glass_dialog_mixin_input.dart:51:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/mixins/glass_dialog_mixin_input.dart:81:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/mixins/glass_dialog_mixin_input.dart:104:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/mixins/glass_dialog_mixin_input.dart:104:55 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/mixins/glass_dialog_mixin_input.dart:105:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/mixins/glass_dialog_mixin_input.dart:105:55 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/models/language_model.dart:22:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/models/language_model.dart:29:16 • prefer_const_constructors
    info • Unnecessary 'this.' qualifier • lib/models/moment.dart:29:9 • unnecessary_this
    info • Unnecessary 'this.' qualifier • lib/models/moment.dart:30:9 • unnecessary_this
    info • Unnecessary 'this.' qualifier • lib/models/moment.dart:113:9 • unnecessary_this
@@ -102,7 +61,6 @@ warning • The left operand can't be null, so the right operand is never execut
   error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:68:11 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:69:11 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:70:11 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/providers/locale_provider.dart:4:20 • prefer_const_constructors
    info • Don't invoke 'print' in production code • lib/providers/moment_provider.dart:82:7 • avoid_print
    info • Don't invoke 'print' in production code • lib/providers/moment_provider.dart:98:7 • avoid_print
    info • Don't invoke 'print' in production code • lib/providers/moment_provider.dart:128:7 • avoid_print
@@ -117,91 +75,23 @@ warning • The left operand can't be null, so the right operand is never execut
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/account_settings_screen.dart:10:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/account_settings_screen.dart:15:7 • use_key_in_widget_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:19:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:27:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:27:51 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:38:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:52:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:68:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:70:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:80:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:91:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:93:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:95:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:110:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:121:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:122:20 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:129:11 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:140:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:175:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:183:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:188:36 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:193:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:196:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:196:52 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:207:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:209:20 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:216:11 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:226:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:235:44 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:257:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:266:44 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:294:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/account_settings_screen.dart:304:44 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:332:18 • undefined_identifier
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/anniversary_date_detail_screen.dart:13:9 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:59:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:101:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:107:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:115:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:115:49 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:124:24 • prefer_const_constructors
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/anniversary_date_detail_screen.dart:134:12 • sized_box_for_whitespace
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:148:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:157:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:160:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:165:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:176:16 • prefer_const_constructors
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/anniversary_date_detail_screen.dart:180:13 • sized_box_for_whitespace
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/anniversary_date_detail_screen.dart:185:13 • sized_box_for_whitespace
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:195:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:204:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:207:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:210:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:215:30 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:220:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:222:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_detail_screen.dart:228:32 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/anniversary_date_screen.dart:8:7 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_screen.dart:161:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_screen.dart:167:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_screen.dart:175:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_screen.dart:175:49 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_screen.dart:183:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_screen.dart:192:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_screen.dart:201:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_screen.dart:204:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_screen.dart:207:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/anniversary_date_screen.dart:236:23 • prefer_const_constructors
 warning • Unused import: 'package:flutter_markdown/flutter_markdown.dart' • lib/screens/at_home_suggestion_screen.dart:4:8 • unused_import
    info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/at_home_suggestion_screen.dart:5:8 • unnecessary_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/at_home_suggestion_screen.dart:7:8 • uri_does_not_exist
   error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:39:19 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:54:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:54:51 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:58:11 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:62:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:67:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:75:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:75:27 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:75:60 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:83:18 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:88:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:96:29 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:105:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:110:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:112:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:120:29 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:136:31 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:139:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:140:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:141:7 • undefined_identifier
@@ -209,180 +99,43 @@ warning • Unused import: 'package:flutter_markdown/flutter_markdown.dart' • 
   error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:143:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:144:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:145:7 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:151:41 • prefer_const_constructors
   error • The method 'toLowerCase' can't be unconditionally invoked because the receiver can be 'null' • lib/screens/at_home_suggestion_screen.dart:154:56 • unchecked_use_of_nullable_value
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:157:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:160:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:162:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:170:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:175:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:181:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/at_home_suggestion_screen.dart:186:22 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/birthday_date_detail_screen.dart:14:9 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:60:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:102:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:108:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:116:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:116:49 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:125:24 • prefer_const_constructors
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/birthday_date_detail_screen.dart:135:12 • sized_box_for_whitespace
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:149:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:158:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:161:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:166:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:177:16 • prefer_const_constructors
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/birthday_date_detail_screen.dart:181:13 • sized_box_for_whitespace
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/birthday_date_detail_screen.dart:186:13 • sized_box_for_whitespace
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:196:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:205:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:208:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:211:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:216:30 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:221:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:223:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_detail_screen.dart:229:32 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/birthday_date_screen.dart:8:7 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_screen.dart:161:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_screen.dart:167:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_screen.dart:175:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_screen.dart:175:49 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_screen.dart:183:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_screen.dart:193:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_screen.dart:202:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_screen.dart:205:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_screen.dart:208:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/birthday_date_screen.dart:237:23 • prefer_const_constructors
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/challenges_screen.dart:6:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/challenges_screen.dart:8:7 • use_key_in_widget_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/challenges_screen.dart:10:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/challenges_screen.dart:171:26 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/challenges_screen.dart:192:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/challenges_screen.dart:194:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/challenges_screen.dart:200:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/challenges_screen.dart:213:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/challenges_screen.dart:217:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/challenges_screen.dart:225:27 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/challenges_screen.dart:231:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/challenges_screen.dart:231:41 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/challenges_screen.dart:232:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/challenges_screen.dart:238:28 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/christmas_date_detail_screen.dart:13:9 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:59:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:101:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:107:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:115:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:115:49 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:124:24 • prefer_const_constructors
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/christmas_date_detail_screen.dart:134:12 • sized_box_for_whitespace
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:148:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:157:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:160:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:165:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:176:16 • prefer_const_constructors
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/christmas_date_detail_screen.dart:180:13 • sized_box_for_whitespace
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/christmas_date_detail_screen.dart:185:13 • sized_box_for_whitespace
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:195:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:204:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:207:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:210:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:215:30 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:220:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:222:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_date_detail_screen.dart:228:32 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/christmas_dates_screen.dart:8:7 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:10:3 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:22:3 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:34:3 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:46:5 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:58:5 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:73:3 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:85:3 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:97:3 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:109:3 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:121:5 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:161:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:167:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:175:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:175:49 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:183:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:192:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:201:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:204:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:207:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/christmas_dates_screen.dart:235:23 • prefer_const_constructors
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/details_screen.dart:7:8 • uri_does_not_exist
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:32:12 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:42:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:42:51 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:46:11 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:50:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:55:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:70:17 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:72:38 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:73:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:77:17 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:78:36 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:79:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:81:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:92:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:100:21 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:108:13 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:112:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:115:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:120:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:134:16 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:141:7 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:145:16 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:151:15 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:152:22 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:153:23 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:154:23 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:155:23 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:184:29 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:187:31 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:193:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:203:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:210:54 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:229:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:250:22 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:253:25 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:256:31 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:257:27 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:257:60 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:269:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:273:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/details_screen.dart:275:21 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:286:15 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:328:11 • undefined_identifier
    info • Don't invoke 'print' in production code • lib/screens/details_screen.dart:340:7 • avoid_print
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/favorite_screen.dart:6:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/favorite_screen.dart:8:7 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:32:18 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:40:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:47:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:50:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:52:13 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/favorite_screen.dart:54:15 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:58:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:62:13 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/favorite_screen.dart:64:15 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:67:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:79:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:83:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:92:27 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:105:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:107:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:115:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:122:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:127:25 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:127:62 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:128:31 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/favorite_screen.dart:138:49 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:157:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:157:51 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/favorite_screen.dart:161:11 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:165:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/favorite_screen.dart:170:26 • prefer_const_constructors
 warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/intermediate_screen.dart:2:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/intermediate_screen.dart:7:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/intermediate_screen.dart:11:7 • use_key_in_widget_constructors
@@ -390,72 +143,17 @@ warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/intermed
   error • Undefined name 'AppLocalizations' • lib/screens/intermediate_screen.dart:65:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/intermediate_screen.dart:66:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/intermediate_screen.dart:67:7 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:72:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:78:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:84:16 • prefer_const_constructors
    info • Don't invoke 'print' in production code • lib/screens/intermediate_screen.dart:90:38 • avoid_print
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:132:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:132:51 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/intermediate_screen.dart:136:11 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:140:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:145:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:156:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:164:27 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:173:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:176:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:179:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:183:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:184:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:185:33 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:185:63 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:189:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:191:29 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/intermediate_screen.dart:199:30 • prefer_const_constructors
 warning • Unused import: '../screens/main_screen.dart' • lib/screens/language_selection_screen.dart:10:8 • unused_import
 warning • Unused import: '../services/auth_service.dart' • lib/screens/language_selection_screen.dart:13:8 • unused_import
    info • Constructors in '@immutable' classes should be declared as 'const' • lib/screens/language_selection_screen.dart:19:3 • prefer_const_constructors_in_immutables
    info • Don't invoke 'print' in production code • lib/screens/language_selection_screen.dart:52:5 • avoid_print
-   info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:69:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:70:27 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:71:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:73:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:92:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:132:49 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:140:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:148:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:162:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:165:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:165:52 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:184:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:204:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/language_selection_screen.dart:209:24 • prefer_const_constructors
 warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/loading_screen.dart:2:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/loading_screen.dart:6:8 • uri_does_not_exist
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:45:20 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/loading_screen.dart:76:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:88:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:95:16 • prefer_const_constructors
    info • Don't invoke 'print' in production code • lib/screens/loading_screen.dart:101:38 • avoid_print
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:138:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:138:49 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/loading_screen.dart:142:5 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:146:12 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:151:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:162:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:170:27 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:179:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:182:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:185:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:189:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:190:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:191:33 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:191:63 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:195:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:197:29 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:205:30 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:213:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:217:40 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen.dart:218:32 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/loading_screen.dart:224:23 • undefined_identifier
 warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/loading_screen1.dart:2:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/loading_screen1.dart:7:8 • uri_does_not_exist
@@ -463,145 +161,26 @@ warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/loading_
   error • Undefined name 'AppLocalizations' • lib/screens/loading_screen1.dart:75:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/loading_screen1.dart:76:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/loading_screen1.dart:77:7 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:86:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:91:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:92:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:100:16 • prefer_const_constructors
    info • Don't invoke 'print' in production code • lib/screens/loading_screen1.dart:110:11 • avoid_print
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:172:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:172:49 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/loading_screen1.dart:176:13 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:180:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:185:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:196:14 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:204:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:217:12 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:220:12 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:223:12 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:229:7 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:233:18 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:234:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:235:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:235:53 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:239:7 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:241:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/loading_screen1.dart:249:20 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/main_screen.dart:9:7 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:25:5 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:64:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:68:21 • prefer_const_constructors
-   info • Use 'const' literals as arguments to constructors of '@immutable' classes • lib/screens/main_screen.dart:70:22 • prefer_const_literals_to_create_immutables
-   info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:71:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:74:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:88:30 • prefer_const_constructors
-   info • Use 'const' literals as arguments to constructors of '@immutable' classes • lib/screens/main_screen.dart:92:18 • prefer_const_literals_to_create_immutables
-   info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:93:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:94:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:97:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:98:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:101:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:102:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:105:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/main_screen.dart:106:21 • prefer_const_constructors
    info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/moment_detail_screen.dart:7:8 • unnecessary_import
 warning • Unused import: '../widgets/glass_button.dart' • lib/screens/moment_detail_screen.dart:12:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/moment_detail_screen.dart:15:8 • uri_does_not_exist
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:46:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:75:15 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:79:9 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:90:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:95:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:100:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:150:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:150:29 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:186:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:196:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:197:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:198:31 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:198:61 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:210:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:212:18 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:221:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:222:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:223:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:228:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:237:44 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:240:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:242:18 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:265:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:276:9 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:283:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:284:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:293:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:303:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:336:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:341:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:350:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:354:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:364:31 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:371:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:385:13 • prefer_const_constructors
    info • The declaration '_deleteComment' isn't referenced • lib/screens/moment_detail_screen.dart:393:8 • unused_element
    info • The declaration '_handleReply' isn't referenced • lib/screens/moment_detail_screen.dart:398:8 • unused_element
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:407:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:433:38 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:435:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:454:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:455:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:464:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:477:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:495:12 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:496:14 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:497:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:497:51 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:505:9 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:524:11 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:532:11 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:538:15 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:545:15 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_detail_screen.dart:546:49 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/moment_loading_screen.dart:10:7 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_loading_screen.dart:35:49 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_loading_screen.dart:45:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_loading_screen.dart:94:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_loading_screen.dart:103:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_loading_screen.dart:104:37 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_loading_screen.dart:106:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/moment_loading_screen.dart:116:23 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/new_year_date_detail_screen.dart:13:9 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:59:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:101:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:107:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:115:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:115:49 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:124:24 • prefer_const_constructors
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/new_year_date_detail_screen.dart:134:12 • sized_box_for_whitespace
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:148:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:157:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:160:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:165:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:176:16 • prefer_const_constructors
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/new_year_date_detail_screen.dart:180:13 • sized_box_for_whitespace
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/new_year_date_detail_screen.dart:185:13 • sized_box_for_whitespace
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:195:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:204:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:207:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:210:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:215:30 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:220:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:222:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_detail_screen.dart:228:32 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/new_year_date_screen.dart:8:7 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_screen.dart:161:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_screen.dart:167:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_screen.dart:175:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_screen.dart:175:49 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_screen.dart:183:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_screen.dart:193:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_screen.dart:202:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_screen.dart:205:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_screen.dart:208:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/new_year_date_screen.dart:237:23 • prefer_const_constructors
 warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_board.dart:3:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/on_board.dart:5:8 • uri_does_not_exist
    info • The private field _admobNativeAds could be 'final' • lib/screens/on_board.dart:25:19 • prefer_final_fields
@@ -613,64 +192,9 @@ warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_b
   error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:40:24 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:44:18 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:45:24 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:88:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:143:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:149:21 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:158:13 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:162:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:172:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:195:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:207:29 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:221:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:227:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:231:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:243:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:249:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:259:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:265:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:285:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:291:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:302:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:303:18 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:311:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:329:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/on_board.dart:330:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:49:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:49:49 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:57:12 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:62:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:70:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:71:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:72:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:72:53 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:92:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:93:18 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:101:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:113:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:117:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:121:34 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:123:26 • prefer_const_constructors
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/place_details_screen.dart:143:12 • sized_box_for_whitespace
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:149:25 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:157:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:157:47 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:162:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:163:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:164:29 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:164:59 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:177:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:185:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:199:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:202:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:211:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:251:29 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:252:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:265:17 • prefer_const_constructors
    info • 'launch' is deprecated and shouldn't be used. Use launchUrl instead • lib/screens/place_details_screen.dart:268:32 • deprecated_member_use
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:273:30 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:282:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:305:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/place_details_screen.dart:307:18 • prefer_const_constructors
    info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/places_screen.dart:8:8 • unnecessary_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/places_screen.dart:10:8 • uri_does_not_exist
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:44:7 • undefined_identifier
@@ -684,54 +208,13 @@ warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_b
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:52:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:53:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:102:25 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:127:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:127:49 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:131:5 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:135:12 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:140:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:166:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:177:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:185:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:205:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:210:17 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:216:42 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:220:34 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:223:23 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:225:45 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:231:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:233:34 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:235:34 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:239:27 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:242:36 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:250:54 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:261:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:262:18 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:270:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:278:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:289:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:290:18 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:298:23 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:303:11 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:306:20 • prefer_const_constructors
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/places_screen.dart:323:20 • sized_box_for_whitespace
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:336:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:339:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/places_screen.dart:341:24 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/privacy_policy_screen.dart:5:7 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/privacy_policy_screen.dart:14:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/privacy_policy_screen.dart:14:49 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/privacy_policy_screen.dart:22:12 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/privacy_policy_screen.dart:27:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/privacy_policy_screen.dart:37:18 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/privacy_policy_screen.dart:42:14 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/privacy_policy_screen.dart:50:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/privacy_policy_screen.dart:58:5 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/privacy_policy_screen.dart:97:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/privacy_policy_screen.dart:108:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/privacy_policy_screen.dart:122:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/privacy_policy_screen.dart:125:9 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/privacy_policy_screen.dart:130:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/privacy_policy_screen.dart:140:16 • prefer_const_constructors
    info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/questionnaire_screen.dart:11:8 • unnecessary_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/questionnaire_screen.dart:12:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/questionnaire_screen.dart:14:7 • use_key_in_widget_constructors
@@ -744,91 +227,21 @@ warning • The value of the field '_fadeAnimation' isn't used • lib/screens/q
   error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:56:16 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:58:16 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:60:16 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:74:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:74:51 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:79:17 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:80:17 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:84:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:89:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:118:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:126:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:134:9 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:138:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:146:29 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:146:59 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:160:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:168:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:179:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:186:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:209:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:244:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:250:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:256:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:277:18 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:283:21 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:284:21 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:288:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:291:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:294:31 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:327:18 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:332:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:334:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:350:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:411:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:446:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:475:25 • prefer_const_constructors
    info • Don't invoke 'print' in production code • lib/screens/questionnaire_screen.dart:496:7 • avoid_print
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:499:9 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:499:27 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:526:25 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/questionnaire_screen.dart:534:9 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/questionnaire_screen.dart:543:17 • prefer_const_constructors
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/results_screen.dart:7:8 • uri_does_not_exist
 warning • Duplicate import • lib/screens/results_screen.dart:9:8 • duplicate_import
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/results_screen.dart:15:3 • use_key_in_widget_constructors
    info • Constructors in '@immutable' classes should be declared as 'const' • lib/screens/results_screen.dart:15:3 • prefer_const_constructors_in_immutables
    info • Don't invoke 'print' in production code • lib/screens/results_screen.dart:72:7 • avoid_print
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:101:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:101:51 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/results_screen.dart:105:11 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:109:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:115:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:115:47 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:124:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:124:27 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:124:60 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:133:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:139:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:144:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:181:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:189:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:194:18 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:204:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:208:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:210:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:214:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:219:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:228:30 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:258:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:261:11 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/results_screen.dart:263:13 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:266:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:285:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:286:22 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/results_screen.dart:292:9 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:308:41 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:318:33 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:319:25 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:320:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:326:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:327:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:329:50 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:332:37 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/results_screen.dart:348:13 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:352:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:356:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:360:32 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/results_screen.dart:361:24 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/results_screen.dart:367:15 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/results_screen.dart:382:49 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/results_screen.dart:403:12 • undefined_identifier
@@ -842,74 +255,22 @@ warning • Duplicate import • lib/screens/results_screen.dart:9:8 • duplica
    info • Don't invoke 'print' in production code • lib/screens/share_moments_screen.dart:99:7 • avoid_print
    info • Don't invoke 'print' in production code • lib/screens/share_moments_screen.dart:101:7 • avoid_print
   error • Undefined name 'AppLocalizations' • lib/screens/share_moments_screen.dart:151:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:153:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:159:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:172:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:176:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:176:45 • prefer_const_constructors
    info • Don't invoke 'print' in production code • lib/screens/share_moments_screen.dart:190:9 • avoid_print
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:197:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:197:35 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:199:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:199:35 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:204:26 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/share_moments_screen.dart:221:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:223:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:224:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:232:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:240:42 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/share_moments_screen.dart:278:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:280:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:286:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:296:34 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/share_moments_screen.dart:302:26 • prefer_const_constructors
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/sign_in_screen.dart:7:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/sign_in_screen.dart:15:7 • use_key_in_widget_constructors
    info • Don't invoke 'print' in production code • lib/screens/sign_in_screen.dart:139:7 • avoid_print
   error • Undefined name 'AppLocalizations' • lib/screens/sign_in_screen.dart:194:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:206:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:211:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:228:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:230:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:240:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:241:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:242:31 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:242:61 • prefer_const_constructors
   error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:250:25 • undefined_class
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:259:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:263:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:269:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:272:15 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:275:13 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:277:13 • prefer_const_constructors
   error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:285:67 • undefined_class
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:287:38 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:302:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:302:41 • prefer_const_constructors
   error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:317:29 • undefined_class
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:321:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:323:18 • prefer_const_constructors
   error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:338:37 • undefined_class
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:344:18 • prefer_const_constructors
   error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:351:30 • undefined_class
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:355:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:356:18 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:360:30 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:361:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:369:11 • prefer_const_constructors
   error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:379:27 • undefined_class
-   info • Use 'const' with the constructor to improve performance • lib/screens/sign_in_screen.dart:385:18 • prefer_const_constructors
    info • The declaration '_loadAdmobInterstitial' isn't referenced • lib/screens/splash_screen.dart:72:8 • unused_element
-   info • Use 'const' with the constructor to improve performance • lib/screens/splash_screen.dart:77:16 • prefer_const_constructors
    info • Don't invoke 'print' in production code • lib/screens/splash_screen.dart:86:11 • avoid_print
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/splash_screen.dart:142:13 • sized_box_for_whitespace
-   info • Use 'const' with the constructor to improve performance • lib/screens/splash_screen.dart:192:32 • prefer_const_constructors
-   info • Use 'const' literals as arguments to constructors of '@immutable' classes • lib/screens/splash_screen.dart:204:38 • prefer_const_literals_to_create_immutables
-   info • Use 'const' with the constructor to improve performance • lib/screens/splash_screen.dart:205:29 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/splash_screen.dart:212:32 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/splash_screen.dart:213:39 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/splash_screen.dart:219:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/splash_screen.dart:220:30 • prefer_const_constructors
 warning • Unused import: 'package:provider/provider.dart' • lib/screens/start_screen.dart:5:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/start_screen.dart:6:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/start_screen.dart:17:7 • use_key_in_widget_constructors
@@ -917,40 +278,18 @@ warning • Unused import: 'package:provider/provider.dart' • lib/screens/star
 warning • The value of the local variable 'l10n' isn't used • lib/screens/start_screen.dart:51:11 • unused_local_variable
   error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:51:18 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:78:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/start_screen.dart:80:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/start_screen.dart:86:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/start_screen.dart:99:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/start_screen.dart:103:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/start_screen.dart:103:47 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:115:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/start_screen.dart:117:16 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:142:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/start_screen.dart:144:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/start_screen.dart:153:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/start_screen.dart:156:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/start_screen.dart:159:22 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:172:49 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:177:56 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:182:56 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:187:56 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:192:56 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/start_screen.dart:205:11 • prefer_const_constructors
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/terms_of_service_screen.dart:4:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/terms_of_service_screen.dart:8:7 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:17:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:17:51 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:21:11 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:25:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:30:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:40:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:45:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:53:33 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:70:22 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:71:9 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:75:11 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:78:20 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:96:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:107:16 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:114:38 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:115:38 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:116:38 • undefined_identifier
@@ -959,78 +298,27 @@ warning • The value of the local variable 'l10n' isn't used • lib/screens/st
   error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:119:38 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:120:38 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:121:38 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:131:30 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:132:26 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:145:13 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:153:9 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:157:13 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:160:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:172:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:197:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:204:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:210:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/terms_of_service_screen.dart:216:24 • prefer_const_constructors
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/upload_moment_screen.dart:11:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/upload_moment_screen.dart:14:7 • use_key_in_widget_constructors
    info • 'desiredAccuracy' is deprecated and shouldn't be used. use settings parameter with AndroidSettings, AppleSettings, WebSettings, or LocationSettings • lib/screens/upload_moment_screen.dart:35:9 • deprecated_member_use
    info • Don't invoke 'print' in production code • lib/screens/upload_moment_screen.dart:41:7 • avoid_print
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:52:21 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:55:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:72:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:95:19 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:97:27 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:100:19 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:106:34 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:109:37 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:113:37 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:120:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:122:30 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:131:30 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:141:19 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:143:27 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:193:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:202:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:202:59 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/upload_moment_screen.dart:203:21 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:205:23 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:223:13 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:237:13 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:272:13 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:282:13 • undefined_identifier
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/valentines_date_detail_screen.dart:13:9 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:59:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:101:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:107:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:115:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:115:49 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:124:24 • prefer_const_constructors
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/valentines_date_detail_screen.dart:134:12 • sized_box_for_whitespace
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:148:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:157:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:160:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:165:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:176:16 • prefer_const_constructors
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/valentines_date_detail_screen.dart:180:13 • sized_box_for_whitespace
    info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/valentines_date_detail_screen.dart:185:13 • sized_box_for_whitespace
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:195:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:204:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:207:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:210:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:215:30 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:220:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:222:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_detail_screen.dart:228:32 • prefer_const_constructors
    info • Constructors for public widgets should have a named 'key' parameter • lib/screens/valentines_date_screen.dart:8:7 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_screen.dart:161:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_screen.dart:167:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_screen.dart:175:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_screen.dart:175:49 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_screen.dart:183:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_screen.dart:193:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_screen.dart:202:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_screen.dart:205:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_screen.dart:208:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/screens/valentines_date_screen.dart:237:23 • prefer_const_constructors
    info • Don't invoke 'print' in production code • lib/services/auth_service.dart:41:7 • avoid_print
 warning • The value of the local variable 'userCredential' isn't used • lib/services/auth_service.dart:48:22 • unused_local_variable
    info • Don't invoke 'print' in production code • lib/services/auth_service.dart:66:7 • avoid_print
@@ -1073,85 +361,398 @@ warning • The value of the local variable 'isPriceSensitive' isn't used • li
    info • Don't invoke 'print' in production code • lib/services/places_service.dart:204:7 • avoid_print
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/widgets/challenge_card.dart:4:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/widgets/challenge_card.dart:10:9 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:34:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:42:29 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:42:56 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:51:24 • prefer_const_constructors
    info • Use a 'SizedBox' to add whitespace to a layout • lib/widgets/challenge_card.dart:57:30 • sized_box_for_whitespace
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:65:36 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:74:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:77:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:77:57 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:78:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:83:34 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:87:23 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/widgets/challenge_card.dart:105:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:107:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:109:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:109:50 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:111:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:124:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:129:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:131:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:136:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:136:55 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:137:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:142:32 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:151:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:160:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:163:32 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/challenge_card.dart:165:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/charging_route.dart:36:37 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/charging_route.dart:48:25 • prefer_const_constructors
 warning • Unused import: 'glass_button.dart' • lib/widgets/comment_input.dart:6:8 • unused_import
 warning • Unused import: '../models/moment.dart' • lib/widgets/comment_input.dart:7:8 • unused_import
-   info • Use 'const' with the constructor to improve performance • lib/widgets/comment_widget.dart:42:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/comment_widget.dart:50:21 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/comment_widget.dart:60:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/comment_widget.dart:68:17 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/comment_widget.dart:84:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/comment_widget.dart:97:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/comment_widget.dart:102:11 • prefer_const_constructors
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/widgets/date_card.dart:3:8 • uri_does_not_exist
    info • Constructors for public widgets should have a named 'key' parameter • lib/widgets/date_card.dart:12:9 • use_key_in_widget_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/date_card.dart:38:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/date_card.dart:60:26 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/date_card.dart:63:33 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/date_card.dart:63:63 • prefer_const_constructors
   error • Undefined name 'AppLocalizations' • lib/widgets/date_card.dart:85:18 • undefined_identifier
-   info • Use 'const' with the constructor to improve performance • lib/widgets/date_card.dart:87:19 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/date_card.dart:89:23 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/date_card.dart:89:50 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/date_card.dart:91:16 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/date_card.dart:105:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/date_card.dart:111:22 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/date_card.dart:114:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/date_card.dart:123:11 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/date_card.dart:126:32 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/date_card.dart:128:28 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/glass_button.dart:27:24 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/image_preview_widget.dart:23:21 • prefer_const_constructors
   error • Invalid constant value • lib/widgets/nickname_selection_popup.dart:109:41 • invalid_constant
    info • Unnecessary 'const' keyword • lib/widgets/nickname_selection_popup.dart:111:45 • unnecessary_const
-   info • Use 'const' with the constructor to improve performance • lib/widgets/nickname_selection_popup.dart:136:39 • prefer_const_constructors
   error • Too many positional arguments: 0 expected, but 1 found • lib/widgets/nickname_selection_popup.dart:137:35 • extra_positional_arguments_could_be_named
-   info • Use 'const' with the constructor to improve performance • lib/widgets/nickname_selection_popup.dart:141:42 • prefer_const_constructors
-   info • Use 'const' with the constructor to improve performance • lib/widgets/nickname_selection_popup.dart:142:49 • prefer_const_constructors
 
-1128 issues found. (ran in 11.0s)
+357 issues found. (ran in 11.1s)
 
 > flutter test --machine
-{"protocolVersion":"0.1.1","runnerVersion":null,"pid":2496,"type":"start","time":0}
+
+
+warning • Unused import: 'package:flutter/services.dart' • lib/main.dart:3:8 • unused_import
+warning • Unused import: 'package:soulplan_ai_fun_date_ideas/services/firebase_service.dart' • lib/main.dart:13:8 • unused_import
+warning • Unused import: 'package:firebase_storage/firebase_storage.dart' • lib/main.dart:16:8 • unused_import
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/main.dart:22:8 • uri_does_not_exist
+   info • Don't invoke 'print' in production code • lib/main.dart:73:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/main.dart:95:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/main.dart:113:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/main.dart:125:5 • avoid_print
+  error • The values in a const list literal must be constants • lib/main.dart:166:17 • non_constant_list_element
+  error • Undefined name 'AppLocalizations' • lib/main.dart:166:17 • undefined_identifier
+warning • The left operand can't be null, so the right operand is never executed • lib/main.dart:190:48 • dead_null_aware_expression
+   info • Unnecessary 'this.' qualifier • lib/models/moment.dart:29:9 • unnecessary_this
+   info • Unnecessary 'this.' qualifier • lib/models/moment.dart:30:9 • unnecessary_this
+   info • Unnecessary 'this.' qualifier • lib/models/moment.dart:113:9 • unnecessary_this
+   info • Unnecessary 'this.' qualifier • lib/models/moment.dart:114:9 • unnecessary_this
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/models/questionnaire.dart:2:8 • uri_does_not_exist
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:19:19 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:21:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:22:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:23:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:24:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:25:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:26:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:27:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:31:19 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:33:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:34:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:35:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:36:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:37:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:41:19 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:43:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:44:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:45:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:49:19 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:51:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:52:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:53:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:54:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:58:19 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:60:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:61:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:65:19 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:67:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:68:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:69:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/models/questionnaire.dart:70:11 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/providers/moment_provider.dart:82:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/providers/moment_provider.dart:98:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/providers/moment_provider.dart:128:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/providers/moment_provider.dart:137:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/providers/moment_provider.dart:159:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/providers/moment_provider.dart:181:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/providers/moment_provider.dart:193:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/providers/moment_provider.dart:196:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/providers/moment_provider.dart:211:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/providers/moment_provider.dart:252:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/providers/moment_provider.dart:321:7 • avoid_print
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/account_settings_screen.dart:10:8 • uri_does_not_exist
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/account_settings_screen.dart:15:7 • use_key_in_widget_constructors
+  error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:19:18 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:129:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:140:18 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:216:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:226:18 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:257:18 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:294:18 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:332:18 • undefined_identifier
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/anniversary_date_detail_screen.dart:13:9 • use_key_in_widget_constructors
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/anniversary_date_detail_screen.dart:134:12 • sized_box_for_whitespace
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/anniversary_date_detail_screen.dart:180:13 • sized_box_for_whitespace
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/anniversary_date_detail_screen.dart:185:13 • sized_box_for_whitespace
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/anniversary_date_screen.dart:8:7 • use_key_in_widget_constructors
+warning • Unused import: 'package:flutter_markdown/flutter_markdown.dart' • lib/screens/at_home_suggestion_screen.dart:4:8 • unused_import
+   info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/at_home_suggestion_screen.dart:5:8 • unnecessary_import
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/at_home_suggestion_screen.dart:7:8 • uri_does_not_exist
+  error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:39:19 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:58:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:139:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:140:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:141:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:142:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:143:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:144:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:145:7 • undefined_identifier
+  error • The method 'toLowerCase' can't be unconditionally invoked because the receiver can be 'null' • lib/screens/at_home_suggestion_screen.dart:154:56 • unchecked_use_of_nullable_value
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/birthday_date_detail_screen.dart:14:9 • use_key_in_widget_constructors
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/birthday_date_detail_screen.dart:135:12 • sized_box_for_whitespace
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/birthday_date_detail_screen.dart:181:13 • sized_box_for_whitespace
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/birthday_date_detail_screen.dart:186:13 • sized_box_for_whitespace
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/birthday_date_screen.dart:8:7 • use_key_in_widget_constructors
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/challenges_screen.dart:6:8 • uri_does_not_exist
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/challenges_screen.dart:8:7 • use_key_in_widget_constructors
+  error • Undefined name 'AppLocalizations' • lib/screens/challenges_screen.dart:10:18 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/challenges_screen.dart:192:18 • undefined_identifier
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/christmas_date_detail_screen.dart:13:9 • use_key_in_widget_constructors
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/christmas_date_detail_screen.dart:134:12 • sized_box_for_whitespace
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/christmas_date_detail_screen.dart:180:13 • sized_box_for_whitespace
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/christmas_date_detail_screen.dart:185:13 • sized_box_for_whitespace
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/christmas_dates_screen.dart:8:7 • use_key_in_widget_constructors
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/details_screen.dart:7:8 • uri_does_not_exist
+  error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:32:12 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:46:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:72:38 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:78:36 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:108:13 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:141:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:151:15 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:152:22 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:153:23 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:154:23 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:155:23 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:253:25 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:286:15 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:328:11 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/screens/details_screen.dart:340:7 • avoid_print
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/favorite_screen.dart:6:8 • uri_does_not_exist
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/favorite_screen.dart:8:7 • use_key_in_widget_constructors
+  error • Undefined name 'AppLocalizations' • lib/screens/favorite_screen.dart:54:15 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/favorite_screen.dart:64:15 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/favorite_screen.dart:138:49 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/favorite_screen.dart:161:11 • undefined_identifier
+warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/intermediate_screen.dart:2:8 • unused_import
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/intermediate_screen.dart:7:8 • uri_does_not_exist
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/intermediate_screen.dart:11:7 • use_key_in_widget_constructors
+  error • Undefined name 'AppLocalizations' • lib/screens/intermediate_screen.dart:64:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/intermediate_screen.dart:65:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/intermediate_screen.dart:66:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/intermediate_screen.dart:67:7 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/screens/intermediate_screen.dart:90:38 • avoid_print
+  error • Undefined name 'AppLocalizations' • lib/screens/intermediate_screen.dart:136:11 • undefined_identifier
+warning • Unused import: '../screens/main_screen.dart' • lib/screens/language_selection_screen.dart:10:8 • unused_import
+warning • Unused import: '../services/auth_service.dart' • lib/screens/language_selection_screen.dart:13:8 • unused_import
+   info • Constructors in '@immutable' classes should be declared as 'const' • lib/screens/language_selection_screen.dart:19:3 • prefer_const_constructors_in_immutables
+   info • Don't invoke 'print' in production code • lib/screens/language_selection_screen.dart:52:5 • avoid_print
+warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/loading_screen.dart:2:8 • unused_import
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/loading_screen.dart:6:8 • uri_does_not_exist
+  error • Undefined name 'AppLocalizations' • lib/screens/loading_screen.dart:76:18 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/screens/loading_screen.dart:101:38 • avoid_print
+  error • Undefined name 'AppLocalizations' • lib/screens/loading_screen.dart:142:5 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/loading_screen.dart:224:23 • undefined_identifier
+warning • Unused import: 'package:lottie/lottie.dart' • lib/screens/loading_screen1.dart:2:8 • unused_import
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/loading_screen1.dart:7:8 • uri_does_not_exist
+  error • Undefined name 'AppLocalizations' • lib/screens/loading_screen1.dart:74:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/loading_screen1.dart:75:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/loading_screen1.dart:76:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/loading_screen1.dart:77:7 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/screens/loading_screen1.dart:110:11 • avoid_print
+  error • Undefined name 'AppLocalizations' • lib/screens/loading_screen1.dart:176:13 • undefined_identifier
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/main_screen.dart:9:7 • use_key_in_widget_constructors
+   info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/moment_detail_screen.dart:7:8 • unnecessary_import
+warning • Unused import: '../widgets/glass_button.dart' • lib/screens/moment_detail_screen.dart:12:8 • unused_import
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/moment_detail_screen.dart:15:8 • uri_does_not_exist
+  error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:79:9 • undefined_identifier
+   info • The declaration '_deleteComment' isn't referenced • lib/screens/moment_detail_screen.dart:393:8 • unused_element
+   info • The declaration '_handleReply' isn't referenced • lib/screens/moment_detail_screen.dart:398:8 • unused_element
+  error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:505:9 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:524:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:532:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:538:15 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:545:15 • undefined_identifier
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/moment_loading_screen.dart:10:7 • use_key_in_widget_constructors
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/new_year_date_detail_screen.dart:13:9 • use_key_in_widget_constructors
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/new_year_date_detail_screen.dart:134:12 • sized_box_for_whitespace
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/new_year_date_detail_screen.dart:180:13 • sized_box_for_whitespace
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/new_year_date_detail_screen.dart:185:13 • sized_box_for_whitespace
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/new_year_date_screen.dart:8:7 • use_key_in_widget_constructors
+warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_board.dart:3:8 • unused_import
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/on_board.dart:5:8 • uri_does_not_exist
+   info • The private field _admobNativeAds could be 'final' • lib/screens/on_board.dart:25:19 • prefer_final_fields
+   info • The private field _isAdMobNativeAdLoaded could be 'final' • lib/screens/on_board.dart:27:14 • prefer_final_fields
+   info • The private field _isFacebookNativeAdLoaded could be 'final' • lib/screens/on_board.dart:28:14 • prefer_final_fields
+  error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:34:18 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:35:24 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:39:18 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:40:24 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:44:18 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:45:24 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:158:13 • undefined_identifier
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/place_details_screen.dart:143:12 • sized_box_for_whitespace
+   info • 'launch' is deprecated and shouldn't be used. Use launchUrl instead • lib/screens/place_details_screen.dart:268:32 • deprecated_member_use
+   info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/places_screen.dart:8:8 • unnecessary_import
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/places_screen.dart:10:8 • uri_does_not_exist
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:44:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:45:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:46:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:47:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:48:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:49:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:50:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:51:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:52:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:53:7 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:102:25 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:131:5 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:216:42 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:225:45 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:239:27 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:303:11 • undefined_identifier
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/places_screen.dart:323:20 • sized_box_for_whitespace
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/privacy_policy_screen.dart:5:7 • use_key_in_widget_constructors
+   info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/questionnaire_screen.dart:11:8 • unnecessary_import
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/questionnaire_screen.dart:12:8 • uri_does_not_exist
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/questionnaire_screen.dart:14:7 • use_key_in_widget_constructors
+warning • The value of the field '_fadeAnimation' isn't used • lib/screens/questionnaire_screen.dart:27:26 • unused_field
+  error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:46:16 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:48:16 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:50:16 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:52:16 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:54:16 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:56:16 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:58:16 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:60:16 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:79:17 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:80:17 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:283:21 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/questionnaire_screen.dart:284:21 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/screens/questionnaire_screen.dart:496:7 • avoid_print
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/questionnaire_screen.dart:534:9 • use_key_in_widget_constructors
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/results_screen.dart:7:8 • uri_does_not_exist
+warning • Duplicate import • lib/screens/results_screen.dart:9:8 • duplicate_import
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/results_screen.dart:15:3 • use_key_in_widget_constructors
+   info • Constructors in '@immutable' classes should be declared as 'const' • lib/screens/results_screen.dart:15:3 • prefer_const_constructors_in_immutables
+   info • Don't invoke 'print' in production code • lib/screens/results_screen.dart:72:7 • avoid_print
+  error • Undefined name 'AppLocalizations' • lib/screens/results_screen.dart:105:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/results_screen.dart:263:13 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/results_screen.dart:292:9 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/results_screen.dart:348:13 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/results_screen.dart:367:15 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/results_screen.dart:382:49 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/results_screen.dart:403:12 • undefined_identifier
+   info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/share_moments_screen.dart:7:8 • unnecessary_import
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/share_moments_screen.dart:16:8 • uri_does_not_exist
+   info • 'desiredAccuracy' is deprecated and shouldn't be used. use settings parameter with AndroidSettings, AppleSettings, WebSettings, or LocationSettings • lib/screens/share_moments_screen.dart:39:9 • deprecated_member_use
+  error • Undefined name 'AppLocalizations' • lib/screens/share_moments_screen.dart:66:21 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/share_moments_screen.dart:67:23 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/share_moments_screen.dart:70:25 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/share_moments_screen.dart:74:25 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/screens/share_moments_screen.dart:99:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/screens/share_moments_screen.dart:101:7 • avoid_print
+  error • Undefined name 'AppLocalizations' • lib/screens/share_moments_screen.dart:151:18 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/screens/share_moments_screen.dart:190:9 • avoid_print
+  error • Undefined name 'AppLocalizations' • lib/screens/share_moments_screen.dart:221:18 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/share_moments_screen.dart:278:18 • undefined_identifier
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/sign_in_screen.dart:7:8 • uri_does_not_exist
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/sign_in_screen.dart:15:7 • use_key_in_widget_constructors
+   info • Don't invoke 'print' in production code • lib/screens/sign_in_screen.dart:139:7 • avoid_print
+  error • Undefined name 'AppLocalizations' • lib/screens/sign_in_screen.dart:194:18 • undefined_identifier
+  error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:250:25 • undefined_class
+  error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:285:67 • undefined_class
+  error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:317:29 • undefined_class
+  error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:338:37 • undefined_class
+  error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:351:30 • undefined_class
+  error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:379:27 • undefined_class
+   info • The declaration '_loadAdmobInterstitial' isn't referenced • lib/screens/splash_screen.dart:72:8 • unused_element
+   info • Don't invoke 'print' in production code • lib/screens/splash_screen.dart:86:11 • avoid_print
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/splash_screen.dart:142:13 • sized_box_for_whitespace
+warning • Unused import: 'package:provider/provider.dart' • lib/screens/start_screen.dart:5:8 • unused_import
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/start_screen.dart:6:8 • uri_does_not_exist
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/start_screen.dart:17:7 • use_key_in_widget_constructors
+  error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:19:18 • undefined_identifier
+warning • The value of the local variable 'l10n' isn't used • lib/screens/start_screen.dart:51:11 • unused_local_variable
+  error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:51:18 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:78:18 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:115:18 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:142:18 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:172:49 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:177:56 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:182:56 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:187:56 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:192:56 • undefined_identifier
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/terms_of_service_screen.dart:4:8 • uri_does_not_exist
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/terms_of_service_screen.dart:8:7 • use_key_in_widget_constructors
+  error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:21:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:70:22 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:75:11 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:114:38 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:115:38 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:116:38 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:117:38 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:118:38 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:119:38 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:120:38 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:121:38 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:145:13 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/terms_of_service_screen.dart:157:13 • undefined_identifier
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/upload_moment_screen.dart:11:8 • uri_does_not_exist
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/upload_moment_screen.dart:14:7 • use_key_in_widget_constructors
+   info • 'desiredAccuracy' is deprecated and shouldn't be used. use settings parameter with AndroidSettings, AppleSettings, WebSettings, or LocationSettings • lib/screens/upload_moment_screen.dart:35:9 • deprecated_member_use
+   info • Don't invoke 'print' in production code • lib/screens/upload_moment_screen.dart:41:7 • avoid_print
+  error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:52:21 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:97:27 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:106:34 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:131:30 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:143:27 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:205:23 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:223:13 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:237:13 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:272:13 • undefined_identifier
+  error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:282:13 • undefined_identifier
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/valentines_date_detail_screen.dart:13:9 • use_key_in_widget_constructors
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/valentines_date_detail_screen.dart:134:12 • sized_box_for_whitespace
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/valentines_date_detail_screen.dart:180:13 • sized_box_for_whitespace
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/valentines_date_detail_screen.dart:185:13 • sized_box_for_whitespace
+   info • Constructors for public widgets should have a named 'key' parameter • lib/screens/valentines_date_screen.dart:8:7 • use_key_in_widget_constructors
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:41:7 • avoid_print
+warning • The value of the local variable 'userCredential' isn't used • lib/services/auth_service.dart:48:22 • unused_local_variable
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:66:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:125:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:128:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:147:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:155:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:160:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:173:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:175:9 • avoid_print
+   info • Use 'const' for final variables initialized to a constant value • lib/services/auth_service.dart:182:5 • prefer_const_declarations
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:236:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:257:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:304:7 • avoid_print
+   info • Use 'rethrow' to rethrow a caught exception • lib/services/auth_service.dart:305:7 • use_rethrow_when_possible
+   info • Don't invoke 'print' in production code • lib/services/city_autocomplete_service.dart:21:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/foursquare_service.dart:38:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/foursquare_service.dart:61:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/foursquare_service.dart:107:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/foursquare_service.dart:162:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/foursquare_service.dart:179:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/gemini_service.dart:47:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/gemini_service.dart:114:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/gemini_service.dart:167:7 • avoid_print
+   info • The declaration '_getMoodBasedFallbackIdeas' isn't referenced • lib/services/gemini_service.dart:194:16 • unused_element
+   info • Don't invoke 'print' in production code • lib/services/gemini_service.dart:325:7 • avoid_print
+   info • The import of 'package:firebase_app_check/firebase_app_check.dart' is unnecessary because all of the used elements are also provided by the import of 'package:cloud_firestore/cloud_firestore.dart' • lib/services/moment_service.dart:4:8 • unnecessary_import
+   info • The import of 'package:firebase_core/firebase_core.dart' is unnecessary because all of the used elements are also provided by the import of 'package:cloud_firestore/cloud_firestore.dart' • lib/services/moment_service.dart:5:8 • unnecessary_import
+warning • Unused import: 'package:http/http.dart' • lib/services/moment_service.dart:9:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/services/moment_service.dart:68:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/moment_service.dart:74:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/moment_service.dart:109:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/moment_service.dart:125:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/moment_service.dart:136:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/moment_service.dart:140:9 • avoid_print
+   info • The member 'toString' overrides an inherited member but isn't annotated with '@override' • lib/services/moment_service.dart:186:10 • annotate_overrides
+warning • The value of the local variable 'isPriceSensitive' isn't used • lib/services/places_service.dart:19:10 • unused_local_variable
+   info • Don't invoke 'print' in production code • lib/services/places_service.dart:48:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/places_service.dart:72:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/places_service.dart:204:7 • avoid_print
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/widgets/challenge_card.dart:4:8 • uri_does_not_exist
+   info • Constructors for public widgets should have a named 'key' parameter • lib/widgets/challenge_card.dart:10:9 • use_key_in_widget_constructors
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/widgets/challenge_card.dart:57:30 • sized_box_for_whitespace
+  error • Undefined name 'AppLocalizations' • lib/widgets/challenge_card.dart:105:18 • undefined_identifier
+warning • Unused import: 'glass_button.dart' • lib/widgets/comment_input.dart:6:8 • unused_import
+warning • Unused import: '../models/moment.dart' • lib/widgets/comment_input.dart:7:8 • unused_import
+  error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/widgets/date_card.dart:3:8 • uri_does_not_exist
+   info • Constructors for public widgets should have a named 'key' parameter • lib/widgets/date_card.dart:12:9 • use_key_in_widget_constructors
+  error • Undefined name 'AppLocalizations' • lib/widgets/date_card.dart:85:18 • undefined_identifier
+  error • Invalid constant value • lib/widgets/nickname_selection_popup.dart:109:41 • invalid_constant
+   info • Unnecessary 'const' keyword • lib/widgets/nickname_selection_popup.dart:111:45 • unnecessary_const
+  error • Too many positional arguments: 0 expected, but 1 found • lib/widgets/nickname_selection_popup.dart:137:35 • extra_positional_arguments_could_be_named
+
+357 issues found. (ran in 11.1s)
+
+> flutter test --machine
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":2501,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"/Users/builder/clone/test/widget_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading /Users/builder/clone/test/widget_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":0}
+{"count":1,"time":3,"type":"allSuites"}
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":2501,"type":"start","time":0}
 {"suite":{"id":0,"platform":"vm","path":"/Users/builder/clone/test/widget_test.dart"},"type":"suite","time":0}
 {"test":{"id":1,"name":"loading /Users/builder/clone/test/widget_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":0}
 {"count":1,"time":3,"type":"allSuites"}
 
 [{"event":"test.startedProcess","params":{"vmServiceUri":null,"observatoryUri":null}}]
-{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":3673}
-{"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":3674}
-{"test":{"id":3,"name":"Initial test","suiteID":0,"groupIDs":[2],"metadata":{"skip":false,"skipReason":null},"line":171,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":4,"root_column":3,"root_url":"file:///Users/builder/clone/test/widget_test.dart"},"type":"testStart","time":3674}
-{"testID":3,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3789}
-{"success":true,"type":"done","time":3796}
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":3477}
+{"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":3478}
+{"test":{"id":3,"name":"Initial test","suiteID":0,"groupIDs":[2],"metadata":{"skip":false,"skipReason":null},"line":171,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":4,"root_column":3,"root_url":"file:///Users/builder/clone/test/widget_test.dart"},"type":"testStart","time":3478}
+{"testID":3,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3596}
+{"success":true,"type":"done","time":3603}
 
 
 QA failed :|
@@ -1162,6 +763,24 @@ Flutter analyze found issues.
 
 Build failed :|
 Test run failed: Flutter analyze found issues.
+
+[{"event":"test.startedProcess","params":{"vmServiceUri":null,"observatoryUri":null}}]
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":3477}
+{"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":3478}
+{"test":{"id":3,"name":"Initial test","suiteID":0,"groupIDs":[2],"metadata":{"skip":false,"skipReason":null},"line":171,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":4,"root_column":3,"root_url":"file:///Users/builder/clone/test/widget_test.dart"},"type":"testStart","time":3478}
+{"testID":3,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3596}
+{"success":true,"type":"done","time":3603}
+
+
+QA failed :|
+Flutter analyze found issues.
+
+== QA failed, ending build ==
+
+
+Build failed :|
+Test run failed: Flutter analyze found issues.
+
 Apps
 Builds
 Teams
@@ -1174,27 +793,28 @@ Start new build
 Build overview
 
 ID:
-67465a1c9357e8df6e4d9a03
+67465bdf2b481316bc4955bf
 Please provide this ID when you contact our support team
 Index:
-17
+22
 Status:
 failed
 Workflow:
 Default Workflow
 Started by:
-Github webhook
+kaynelapps@gmail.com
+kaynelapps@gmail.com
 Started:
-4 minutes ago
-Nov 27th, 2024 at 00:30 CET
+2 minutes ago
+Nov 27th, 2024 at 00:41 CET
 Duration:
-2m 16s
+2m 8s
 Machine:
 Mac mini M2
 Branch:
 main
 Commit:
-8d25a70
+71166ce
 Current configuration
 
 Flutter channel:
@@ -1208,11 +828,11 @@ iOS
 Click on the build steps for details.
 
 Preparing build machine
-35s
+31s
 Fetching app sources
 5s
 Installing SDKs
-50s
+47s
 Installing dependencies
 24s
 Building iOS
