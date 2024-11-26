@@ -76,7 +76,7 @@ class _NicknameSelectionPopupState extends State<NicknameSelectionPopup> {
             child: BackdropFilter(
               filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
               child: Container(
-                padding: EdgeInsets.all(24),
+                padding: const EdgeInsets.all(24),
                 decoration: BoxDecoration(
                   color: Colors.white.withOpacity(0.1),
                   borderRadius: BorderRadius.circular(20),
@@ -95,7 +95,7 @@ class _NicknameSelectionPopupState extends State<NicknameSelectionPopup> {
                           color: Colors.white,
                         ),
                       ),
-                      SizedBox(height: 24),
+                     const SizedBox(height: 24),
                       Container(
                         decoration: BoxDecoration(
                           color: Colors.black.withOpacity(0.3),
@@ -104,11 +104,11 @@ class _NicknameSelectionPopupState extends State<NicknameSelectionPopup> {
                         ),
                         child: TextFormField(
                           style: GoogleFonts.poppins(color: Colors.white),
-                          decoration: InputDecoration(
+                          decoration: const InputDecoration(
                             labelText: 'Nickname',
                             labelStyle: GoogleFonts.poppins(color: Colors.white70),
                             border: InputBorder.none,
-                            contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                            contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                             enabledBorder: InputBorder.none,
                             focusedBorder: InputBorder.none,
                           ),
@@ -116,7 +116,7 @@ class _NicknameSelectionPopupState extends State<NicknameSelectionPopup> {
                           onSaved: (value) => _nickname = value!,
                         ),
                       ),
-                      SizedBox(height: 24),
+                     const SizedBox(height: 24),
                       Container(
                         width: double.infinity,
                         decoration: BoxDecoration(
@@ -130,12 +130,14 @@ class _NicknameSelectionPopupState extends State<NicknameSelectionPopup> {
                             borderRadius: BorderRadius.circular(15),
                             onTap: _isChecking ? null : _submitNickname,
                             child: Padding(
-                              padding: EdgeInsets.symmetric(vertical: 16),
+                          padding: const EdgeInsets.symmetric(vertical: 16),
                               child: Center(
                                 child: _isChecking
                                     ? SizedBox(
-                                  width: 24,
-                                  height: 24,
+                                  const SizedBox(
+  width: 24,
+  height: 24,
+),
                                   child: CircularProgressIndicator(
                                     valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
                                     strokeWidth: 2,
