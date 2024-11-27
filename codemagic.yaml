@@ -1,23 +1,36 @@
 workflows:
   ios-release-build:
     name: iOS Release Build
-    max_build_duration: 60  # Maximum build time in minutes
+    max_build_duration: 60
     environment:
-      flutter: stable          # Use the stable version of Flutter SDK
-      xcode: latest            # Use the latest Xcode version available
+      flutter: 3.24.5
+      xcode: 15.4
+      cocoapods: 1.16.2
     scripts:
-      - name: Clean the project
+      - name: Set up Flutter
         script: |
           flutter clean
           flutter pub get
-      - name: Install CocoaPods
+      - name: Pod Setup
         script: |
           cd ios
-          pod install --verbose
+          rm -rf Pods Podfile.lock
+          pod install --repo-update
           cd ..
       - name: Build IPA
         script: |
           flutter build ipa --release --export-options-plist=ios/export_options.plist
     artifacts:
-      - build/ios/ipa/*.ipa    # Path to the generated IPA file
-            # Automatically submit to App Store after build
+      - build/ios/ipa/*.ipa
+    code_signing:
+      provisioning_profiles:
+        com.aifun.dateideas.planadate: "SoulPlan_ProvisioningProfile.mobileprovision"
+      certificate: "SoulPlan_Certificate.p12"
+      certificate_password: xclavisanaspasse14
+   publishing:
+  app_store_connect:
+    apple_id: anaskay.13@gmail.com
+    api_key_id: QDVWVZNYHW
+    api_key_issuer_id: 1286bc9f-7590-4626-a04a-9acdd2431c04
+    api_key: $APP_STORE_CONNECT_PRIVATE_KEY
+    bundle_identifier: "com.aifun.dateideas.planadate"
