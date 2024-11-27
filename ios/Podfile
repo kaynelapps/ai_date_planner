@@ -54,22 +54,15 @@ end
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
-      config.build_settings['FRAMEWORK_SEARCH_PATHS'] ||= [
+      config.build_settings['FRAMEWORK_SEARCH_PATHS'] = [
         "$(inherited)",
-        "$(SRCROOT)/Flutter",
-        "${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter",
-        "${PODS_ROOT}/../Flutter",
-        "${PODS_CONFIGURATION_BUILD_DIR}/Flutter",
-        "${SRCROOT}/.symlinks/flutter/ios",
-        "${SRCROOT}/.ios/Flutter"
+        "${PODS_ROOT}/../.symlinks/flutter/ios",
+        "${PODS_ROOT}/../../flutter_module/.ios/Flutter",
+        "${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter"
       ]
       
-      config.build_settings['HEADER_SEARCH_PATHS'] ||= [
-        "$(inherited)",
-        "${PODS_ROOT}/Headers/Public",
-        "${PODS_ROOT}/Headers/Public/Flutter",
-        "${SRCROOT}/.ios/Flutter/engine/Flutter.framework/Headers"
-      ]
+      config.build_settings['OTHER_LDFLAGS'] = '$(inherited) -framework Flutter'
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
     end
   end
 end
