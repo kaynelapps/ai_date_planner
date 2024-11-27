@@ -22,15 +22,15 @@ workflows:
           flutter build ipa --release --export-options-plist=ios/export_options.plist
     artifacts:
       - build/ios/ipa/*.ipa
-    code_signing:
+    ios_signing:
       provisioning_profiles:
         com.aifun.dateideas.planadate: "SoulPlan_ProvisioningProfile.mobileprovision"
       certificate: "SoulPlan_Certificate.p12"
       certificate_password: xclavisanaspasse14
-   publishing:
-  app_store_connect:
-    apple_id: anaskay.13@gmail.com
-    api_key_id: QDVWVZNYHW
-    api_key_issuer_id: 1286bc9f-7590-4626-a04a-9acdd2431c04
-    api_key: $APP_STORE_CONNECT_PRIVATE_KEY
-    bundle_identifier: "com.aifun.dateideas.planadate"
+    publishing:
+      app_store_connect:
+        apple_id: anaskay.13@gmail.com
+        api_key_id: QDVWVZNYHW
+        api_key_issuer_id: 1286bc9f-7590-4626-a04a-9acdd2431c04
+        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
+        bundle_identifier: "com.aifun.dateideas.planadate"
