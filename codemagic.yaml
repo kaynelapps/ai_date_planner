@@ -1,0 +1,23 @@
+workflows:
+  ios-release-build:
+    name: iOS Release Build
+    max_build_duration: 60  # Maximum build time in minutes
+    environment:
+      flutter: stable          # Use the stable version of Flutter SDK
+      xcode: latest            # Use the latest Xcode version available
+    scripts:
+      - name: Clean the project
+        script: |
+          flutter clean
+          flutter pub get
+      - name: Install CocoaPods
+        script: |
+          cd ios
+          pod install --verbose
+          cd ..
+      - name: Build IPA
+        script: |
+          flutter build ipa --release --export-options-plist=ios/export_options.plist
+    artifacts:
+      - build/ios/ipa/*.ipa    # Path to the generated IPA file
+            # Automatically submit to App Store after build
