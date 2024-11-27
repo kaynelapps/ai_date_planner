@@ -1,11 +1,15 @@
 workflows:
   ios-release-build:
     name: iOS Release Build
+    instance_type: mac_mini_m2
     max_build_duration: 60
     environment:
-      flutter: 3.24.5
-      xcode: 15.4
-      cocoapods: 1.16.2
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+      vars:
+        XCODE_WORKSPACE: "Runner.xcworkspace"
+        XCODE_SCHEME: "Runner"
     scripts:
       - name: Set up Flutter
         script: |
@@ -16,21 +20,14 @@ workflows:
           cd ios
           rm -rf Pods Podfile.lock
           pod install --repo-update
-          cd ..
-      - name: Build IPA
+      - name: Build iOS
         script: |
-          flutter build ipa --release --export-options-plist=ios/export_options.plist
+          flutter build ipa --release
     artifacts:
       - build/ios/ipa/*.ipa
-    ios_signing:
-      provisioning_profiles:
-        com.aifun.dateideas.planadate: "SoulPlan_ProvisioningProfile.mobileprovision"
-      certificate: "SoulPlan_Certificate.p12"
-      certificate_password: xclavisanaspasse14
     publishing:
       app_store_connect:
-        apple_id: anaskay.13@gmail.com
+        api_key: AuthKey_QDVWVZNYHW.p8
         api_key_id: QDVWVZNYHW
         api_key_issuer_id: 1286bc9f-7590-4626-a04a-9acdd2431c04
-        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
-        bundle_identifier: "com.aifun.dateideas.planadate"
+        apple_id: anaskay.13@gmail.com
