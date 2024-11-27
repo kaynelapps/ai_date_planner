@@ -4,14 +4,9 @@ workflows:
     instance_type: mac_mini_m2
     max_build_duration: 60
     environment:
-      groups:
-        - app_store_credentials
       flutter: stable
       xcode: latest
       cocoapods: default
-      vars:
-        XCODE_WORKSPACE: "Runner.xcworkspace"
-        XCODE_SCHEME: "Runner"
     scripts:
       - name: Set up Flutter
         script: |
@@ -30,5 +25,5 @@ workflows:
     publishing:
       app_store_connect:
         submit_to_testflight: true
-        username: anaskay.13@gmail.com
-        password: xclavisanaspasse14
+        apple_id: ${{ secrets.APPLE_ID }}
+        password: ${{ secrets.APP_SPECIFIC_PASSWORD }}
