@@ -1,3 +1,2 @@
 #include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"
-#include "Generated.xcconfig"
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../Flutter"
+FRAMEWORK_SEARCH_PATHS=${PODS_ROOT}/Flutter
