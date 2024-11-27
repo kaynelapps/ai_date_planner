@@ -28,100 +28,110 @@ class CommentInput extends StatefulWidget {
 class _CommentInputState extends State<CommentInput> {
   final TextEditingController _commentController = TextEditingController();
 
- Future<void> _submitComment() async {
-  if (_commentController.text.trim().isEmpty) return;
-  
-  final currentContext = context;
-  final userEmail = await AuthService().getCurrentUserEmail();
-  final nickname = await AuthService().getCurrentUserNickname();
+  Future<void> _submitComment() async {
+    if (_commentController.text.trim().isEmpty) return;
 
-  if (userEmail != null && nickname != null && mounted) {
-    if (widget.replyToCommentId != null) {
-      await Provider.of<MomentProvider>(currentContext, listen: false).addReply(
-        widget.momentId,
-        widget.replyToCommentId!,
-        userEmail,
-        nickname,
-        _commentController.text,
-      );
-    } else {
-      await Provider.of<MomentProvider>(currentContext, listen: false).addComment(
-        widget.momentId,
-        userEmail,
-        nickname,
-        _commentController.text,
-      );
+    final userEmail = await AuthService().getCurrentUserEmail();
+    final nickname = await AuthService().getCurrentUserNickname();
+
+    if (userEmail != null && nickname != null) {
+      if (widget.replyToCommentId != null) {
+        // Submit reply
+        await Provider.of<MomentProvider>(context, listen: false).addReply(
+          widget.momentId,
+          widget.replyToCommentId!,
+          userEmail,
+          nickname,
+          _commentController.text,
+        );
+      } else {
+        // Submit normal comment
+        await Provider.of<MomentProvider>(context, listen: false).addComment(
+          widget.momentId,
+          userEmail,
+          nickname,
+          _commentController.text,
+        );
+      }
+
+      _commentController.clear();
+      widget.onCommentAdded();
+
+      if (mounted) {
+        Future.delayed(Duration(milliseconds: 100), () {
+          Scrollable.ensureVisible(
+            context,
+            duration: Duration(milliseconds: 300),
+            curve: Curves.easeOut,
+          );
+        });
+      }
     }
-    
-    _commentController.clear();
-    widget.onCommentAdded();
   }
-}
 
-@override
-Widget build(BuildContext context) {
-  return Container(
-    padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
-    decoration: BoxDecoration(
-      color: Colors.white,
-      border: Border(top: BorderSide(color: Colors.grey[200]!)),
-    ),
-    child: SafeArea(
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          if (widget.replyToUsername != null)
-            Padding(
-              padding: const EdgeInsets.only(bottom: 8),
-              child: Row(
-                children: [
-                  Text(
-                    'Replying to ${widget.replyToUsername}',
-                    style: GoogleFonts.poppins(
-                      color: Colors.grey[600],
-                      fontSize: 12,
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: EdgeInsets.fromLTRB(16, 8, 16, 8),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        border: Border(top: BorderSide(color: Colors.grey[200]!)),
+      ),
+      child: SafeArea(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            if (widget.replyToUsername != null)
+              Padding(
+                padding: EdgeInsets.only(bottom: 8),
+                child: Row(
+                  children: [
+                    Text(
+                      'Replying to ${widget.replyToUsername}',
+                      style: GoogleFonts.poppins(
+                        color: Colors.grey[600],
+                        fontSize: 12,
+                      ),
                     ),
-                  ),
-                  const Spacer(),
-                  GestureDetector(
-                    onTap: () => widget.onCommentAdded(),
-                    child: Icon(Icons.close, size: 16, color: Colors.grey[600]),
-                  ),
-                ],
-              ),
-            ),
-          Row(
-            children: [
-              Expanded(
-                child: TextField(
-                  controller: _commentController,
-                  decoration: InputDecoration(
-                    hintText: widget.replyToUsername != null
-                        ? 'Write a reply...'
-                        : 'Add a comment...',
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(20),
-                      borderSide: BorderSide.none,
+                    Spacer(),
+                    GestureDetector(
+                      onTap: () => widget.onCommentAdded(),
+                      child: Icon(Icons.close, size: 16, color: Colors.grey[600]),
                     ),
-                    filled: true,
-                    fillColor: Colors.grey[100],
-                    contentPadding: const EdgeInsets.symmetric(horizontal: 16),
-                  ),
+                  ],
                 ),
               ),
-              const SizedBox(width: 8),
-              IconButton(
-                icon: const Icon(Icons.send, color: Color(0xFFE91C40)),
-                onPressed: _submitComment,
-              ),
-            ],
-          ),
-        ],
+            Row(
+              children: [
+                Expanded(
+                  child: TextField(
+                    controller: _commentController,
+                    decoration: InputDecoration(
+                      hintText: widget.replyToUsername != null
+                          ? 'Write a reply...'
+                          : 'Add a comment...',
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(20),
+                        borderSide: BorderSide.none,
+                      ),
+                      filled: true,
+                      fillColor: Colors.grey[100],
+                      contentPadding: EdgeInsets.symmetric(horizontal: 16),
+                    ),
+                  ),
+                ),
+                SizedBox(width: 8),
+                IconButton(
+                  icon: Icon(Icons.send, color: Color(0xFFE91C40)),
+                  onPressed: _submitComment,
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
-    ),
-  );
-}
-
+    );
+  }
 
   @override
   void dispose() {

@@ -7,15 +7,11 @@ import 'dart:ui';
 class NicknameSelectionPopup extends StatefulWidget {
   final Function(String) onNicknameConfirmed;
 
-  const NicknameSelectionPopup({
-    Key? key,
-    required this.onNicknameConfirmed,
-  }) : super(key: key);
+  NicknameSelectionPopup({required this.onNicknameConfirmed});
 
   @override
-  State<NicknameSelectionPopup> createState() => _NicknameSelectionPopupState();
+  _NicknameSelectionPopupState createState() => _NicknameSelectionPopupState();
 }
-
 
 class _NicknameSelectionPopupState extends State<NicknameSelectionPopup> {
   final _formKey = GlobalKey<FormState>();
@@ -76,7 +72,7 @@ class _NicknameSelectionPopupState extends State<NicknameSelectionPopup> {
             child: BackdropFilter(
               filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
               child: Container(
-                padding: const EdgeInsets.all(24),
+                padding: EdgeInsets.all(24),
                 decoration: BoxDecoration(
                   color: Colors.white.withOpacity(0.1),
                   borderRadius: BorderRadius.circular(20),
@@ -95,7 +91,7 @@ class _NicknameSelectionPopupState extends State<NicknameSelectionPopup> {
                           color: Colors.white,
                         ),
                       ),
-                     const SizedBox(height: 24),
+                      SizedBox(height: 24),
                       Container(
                         decoration: BoxDecoration(
                           color: Colors.black.withOpacity(0.3),
@@ -104,11 +100,11 @@ class _NicknameSelectionPopupState extends State<NicknameSelectionPopup> {
                         ),
                         child: TextFormField(
                           style: GoogleFonts.poppins(color: Colors.white),
-                          decoration: const InputDecoration(
+                          decoration: InputDecoration(
                             labelText: 'Nickname',
                             labelStyle: GoogleFonts.poppins(color: Colors.white70),
                             border: InputBorder.none,
-                            contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                            contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                             enabledBorder: InputBorder.none,
                             focusedBorder: InputBorder.none,
                           ),
@@ -116,7 +112,7 @@ class _NicknameSelectionPopupState extends State<NicknameSelectionPopup> {
                           onSaved: (value) => _nickname = value!,
                         ),
                       ),
-                     const SizedBox(height: 24),
+                      SizedBox(height: 24),
                       Container(
                         width: double.infinity,
                         decoration: BoxDecoration(
@@ -130,14 +126,12 @@ class _NicknameSelectionPopupState extends State<NicknameSelectionPopup> {
                             borderRadius: BorderRadius.circular(15),
                             onTap: _isChecking ? null : _submitNickname,
                             child: Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 16),
+                              padding: EdgeInsets.symmetric(vertical: 16),
                               child: Center(
                                 child: _isChecking
                                     ? SizedBox(
-                                  const SizedBox(
-  width: 24,
-  height: 24,
-),
+                                  width: 24,
+                                  height: 24,
                                   child: CircularProgressIndicator(
                                     valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
                                     strokeWidth: 2,

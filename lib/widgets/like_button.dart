@@ -8,10 +8,7 @@ import '../services/auth_service.dart';
 class LikeButton extends StatelessWidget {
   final Moment moment;
 
-  const LikeButton({
-    Key? key,
-    required this.moment,
-  }) : super(key: key);
+  const LikeButton({required this.moment});
 
   @override
   Widget build(BuildContext context) {
@@ -22,12 +19,13 @@ class LikeButton extends StatelessWidget {
           builder: (context, snapshot) {
             final userEmail = snapshot.data;
             final isLiked = moment.likes.contains(userEmail);
+
             return Row(
               children: [
                 IconButton(
                   icon: Icon(
                     isLiked ? Icons.favorite : Icons.favorite_border,
-                    color: isLiked ? const Color(0xFFE91C40) : Colors.black87,
+                    color: isLiked ? Color(0xFFE91C40) : Colors.black87,
                   ),
                   onPressed: () {
                     if (userEmail != null) {
