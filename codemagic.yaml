@@ -31,6 +31,7 @@ workflows:
       app_store_connect:
         submit_to_testflight: true
         submit_to_app_store: false
-        key_id: $APP_STORE_API_KEY_ID
-        key: $APP_STORE_CONNECT_PRIVATE_KEY
-        issuer_id: $APP_STORE_API_KEY_ISSUER_ID
+        auth:
+          key_id: $APP_STORE_API_KEY_ID
+          private_key: $APP_STORE_CONNECT_PRIVATE_KEY
+          issuer_id: $APP_STORE_API_KEY_ISSUER_ID
