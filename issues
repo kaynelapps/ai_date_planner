@@ -1,5 +1,5 @@
 Testing
-18s
+19s
 
 
 
@@ -66,9 +66,6 @@ warning • The left operand can't be null, so the right operand is never execut
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:257:18 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:294:18 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:332:18 • undefined_identifier
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/anniversary_date_detail_screen.dart:134:12 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/anniversary_date_detail_screen.dart:180:13 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/anniversary_date_detail_screen.dart:185:13 • sized_box_for_whitespace
 warning • Unused import: 'package:flutter_markdown/flutter_markdown.dart' • lib/screens/at_home_suggestion_screen.dart:4:8 • unused_import
    info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/at_home_suggestion_screen.dart:5:8 • unnecessary_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/at_home_suggestion_screen.dart:7:8 • uri_does_not_exist
@@ -82,15 +79,9 @@ warning • Unused import: 'package:flutter_markdown/flutter_markdown.dart' • 
   error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:144:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:145:7 • undefined_identifier
   error • The method 'toLowerCase' can't be unconditionally invoked because the receiver can be 'null' • lib/screens/at_home_suggestion_screen.dart:154:56 • unchecked_use_of_nullable_value
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/birthday_date_detail_screen.dart:135:12 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/birthday_date_detail_screen.dart:181:13 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/birthday_date_detail_screen.dart:186:13 • sized_box_for_whitespace
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/challenges_screen.dart:6:8 • uri_does_not_exist
   error • Undefined name 'AppLocalizations' • lib/screens/challenges_screen.dart:10:18 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/challenges_screen.dart:192:18 • undefined_identifier
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/christmas_date_detail_screen.dart:134:12 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/christmas_date_detail_screen.dart:180:13 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/christmas_date_detail_screen.dart:185:13 • sized_box_for_whitespace
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/details_screen.dart:7:8 • uri_does_not_exist
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:32:12 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:46:11 • undefined_identifier
@@ -144,9 +135,6 @@ warning • Unused import: '../widgets/glass_button.dart' • lib/screens/moment
   error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:532:11 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:538:15 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:545:15 • undefined_identifier
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/new_year_date_detail_screen.dart:134:12 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/new_year_date_detail_screen.dart:180:13 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/new_year_date_detail_screen.dart:185:13 • sized_box_for_whitespace
 warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_board.dart:3:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/on_board.dart:5:8 • uri_does_not_exist
   error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:34:18 • undefined_identifier
@@ -156,7 +144,6 @@ warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_b
   error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:44:18 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:45:24 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:158:13 • undefined_identifier
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/place_details_screen.dart:143:12 • sized_box_for_whitespace
    info • 'launch' is deprecated and shouldn't be used. Use launchUrl instead • lib/screens/place_details_screen.dart:268:32 • deprecated_member_use
    info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/places_screen.dart:8:8 • unnecessary_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/places_screen.dart:10:8 • uri_does_not_exist
@@ -176,7 +163,6 @@ warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_b
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:225:45 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:239:27 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:303:11 • undefined_identifier
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/places_screen.dart:323:20 • sized_box_for_whitespace
    info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/questionnaire_screen.dart:11:8 • unnecessary_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/questionnaire_screen.dart:12:8 • uri_does_not_exist
 warning • The value of the field '_fadeAnimation' isn't used • lib/screens/questionnaire_screen.dart:27:26 • unused_field
@@ -221,7 +207,6 @@ warning • Duplicate import • lib/screens/results_screen.dart:9:8 • duplica
   error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:351:30 • undefined_class
   error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:379:27 • undefined_class
    info • The declaration '_loadAdmobInterstitial' isn't referenced • lib/screens/splash_screen.dart:72:8 • unused_element
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/splash_screen.dart:142:13 • sized_box_for_whitespace
 warning • Unused import: 'package:provider/provider.dart' • lib/screens/start_screen.dart:5:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/start_screen.dart:6:8 • uri_does_not_exist
   error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:19:18 • undefined_identifier
@@ -261,9 +246,6 @@ warning • The value of the local variable 'l10n' isn't used • lib/screens/st
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:237:13 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:272:13 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:282:13 • undefined_identifier
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/valentines_date_detail_screen.dart:134:12 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/valentines_date_detail_screen.dart:180:13 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/valentines_date_detail_screen.dart:185:13 • sized_box_for_whitespace
 warning • The value of the local variable 'userCredential' isn't used • lib/services/auth_service.dart:48:22 • unused_local_variable
    info • Use 'rethrow' to rethrow a caught exception • lib/services/auth_service.dart:305:7 • use_rethrow_when_possible
    info • The declaration '_getMoodBasedFallbackIdeas' isn't referenced • lib/services/gemini_service.dart:194:16 • unused_element
@@ -273,7 +255,6 @@ warning • Unused import: 'package:http/http.dart' • lib/services/moment_serv
    info • The member 'toString' overrides an inherited member but isn't annotated with '@override' • lib/services/moment_service.dart:186:10 • annotate_overrides
 warning • The value of the local variable 'isPriceSensitive' isn't used • lib/services/places_service.dart:19:10 • unused_local_variable
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/widgets/challenge_card.dart:4:8 • uri_does_not_exist
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/widgets/challenge_card.dart:57:30 • sized_box_for_whitespace
   error • Undefined name 'AppLocalizations' • lib/widgets/challenge_card.dart:105:18 • undefined_identifier
 warning • Unused import: 'glass_button.dart' • lib/widgets/comment_input.dart:6:8 • unused_import
 warning • Unused import: '../models/moment.dart' • lib/widgets/comment_input.dart:7:8 • unused_import
@@ -283,7 +264,7 @@ warning • Unused import: '../models/moment.dart' • lib/widgets/comment_input
    info • Unnecessary 'const' keyword • lib/widgets/nickname_selection_popup.dart:111:45 • unnecessary_const
   error • Too many positional arguments: 0 expected, but 1 found • lib/widgets/nickname_selection_popup.dart:137:35 • extra_positional_arguments_could_be_named
 
-268 issues found. (ran in 11.0s)
+249 issues found. (ran in 11.1s)
 
 > flutter test --machine
 
@@ -340,9 +321,6 @@ warning • The left operand can't be null, so the right operand is never execut
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:257:18 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:294:18 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/account_settings_screen.dart:332:18 • undefined_identifier
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/anniversary_date_detail_screen.dart:134:12 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/anniversary_date_detail_screen.dart:180:13 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/anniversary_date_detail_screen.dart:185:13 • sized_box_for_whitespace
 warning • Unused import: 'package:flutter_markdown/flutter_markdown.dart' • lib/screens/at_home_suggestion_screen.dart:4:8 • unused_import
    info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/at_home_suggestion_screen.dart:5:8 • unnecessary_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/at_home_suggestion_screen.dart:7:8 • uri_does_not_exist
@@ -356,15 +334,9 @@ warning • Unused import: 'package:flutter_markdown/flutter_markdown.dart' • 
   error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:144:7 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/at_home_suggestion_screen.dart:145:7 • undefined_identifier
   error • The method 'toLowerCase' can't be unconditionally invoked because the receiver can be 'null' • lib/screens/at_home_suggestion_screen.dart:154:56 • unchecked_use_of_nullable_value
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/birthday_date_detail_screen.dart:135:12 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/birthday_date_detail_screen.dart:181:13 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/birthday_date_detail_screen.dart:186:13 • sized_box_for_whitespace
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/challenges_screen.dart:6:8 • uri_does_not_exist
   error • Undefined name 'AppLocalizations' • lib/screens/challenges_screen.dart:10:18 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/challenges_screen.dart:192:18 • undefined_identifier
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/christmas_date_detail_screen.dart:134:12 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/christmas_date_detail_screen.dart:180:13 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/christmas_date_detail_screen.dart:185:13 • sized_box_for_whitespace
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/details_screen.dart:7:8 • uri_does_not_exist
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:32:12 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/details_screen.dart:46:11 • undefined_identifier
@@ -418,9 +390,6 @@ warning • Unused import: '../widgets/glass_button.dart' • lib/screens/moment
   error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:532:11 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:538:15 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/moment_detail_screen.dart:545:15 • undefined_identifier
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/new_year_date_detail_screen.dart:134:12 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/new_year_date_detail_screen.dart:180:13 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/new_year_date_detail_screen.dart:185:13 • sized_box_for_whitespace
 warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_board.dart:3:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/on_board.dart:5:8 • uri_does_not_exist
   error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:34:18 • undefined_identifier
@@ -430,7 +399,6 @@ warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_b
   error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:44:18 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:45:24 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/on_board.dart:158:13 • undefined_identifier
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/place_details_screen.dart:143:12 • sized_box_for_whitespace
    info • 'launch' is deprecated and shouldn't be used. Use launchUrl instead • lib/screens/place_details_screen.dart:268:32 • deprecated_member_use
    info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/places_screen.dart:8:8 • unnecessary_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/places_screen.dart:10:8 • uri_does_not_exist
@@ -450,7 +418,6 @@ warning • Unused import: 'package:nb_utils/nb_utils.dart' • lib/screens/on_b
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:225:45 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:239:27 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/places_screen.dart:303:11 • undefined_identifier
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/places_screen.dart:323:20 • sized_box_for_whitespace
    info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/screens/questionnaire_screen.dart:11:8 • unnecessary_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/questionnaire_screen.dart:12:8 • uri_does_not_exist
 warning • The value of the field '_fadeAnimation' isn't used • lib/screens/questionnaire_screen.dart:27:26 • unused_field
@@ -495,7 +462,6 @@ warning • Duplicate import • lib/screens/results_screen.dart:9:8 • duplica
   error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:351:30 • undefined_class
   error • Undefined class 'AppLocalizations' • lib/screens/sign_in_screen.dart:379:27 • undefined_class
    info • The declaration '_loadAdmobInterstitial' isn't referenced • lib/screens/splash_screen.dart:72:8 • unused_element
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/splash_screen.dart:142:13 • sized_box_for_whitespace
 warning • Unused import: 'package:provider/provider.dart' • lib/screens/start_screen.dart:5:8 • unused_import
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/screens/start_screen.dart:6:8 • uri_does_not_exist
   error • Undefined name 'AppLocalizations' • lib/screens/start_screen.dart:19:18 • undefined_identifier
@@ -535,9 +501,6 @@ warning • The value of the local variable 'l10n' isn't used • lib/screens/st
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:237:13 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:272:13 • undefined_identifier
   error • Undefined name 'AppLocalizations' • lib/screens/upload_moment_screen.dart:282:13 • undefined_identifier
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/valentines_date_detail_screen.dart:134:12 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/valentines_date_detail_screen.dart:180:13 • sized_box_for_whitespace
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/valentines_date_detail_screen.dart:185:13 • sized_box_for_whitespace
 warning • The value of the local variable 'userCredential' isn't used • lib/services/auth_service.dart:48:22 • unused_local_variable
    info • Use 'rethrow' to rethrow a caught exception • lib/services/auth_service.dart:305:7 • use_rethrow_when_possible
    info • The declaration '_getMoodBasedFallbackIdeas' isn't referenced • lib/services/gemini_service.dart:194:16 • unused_element
@@ -547,7 +510,6 @@ warning • Unused import: 'package:http/http.dart' • lib/services/moment_serv
    info • The member 'toString' overrides an inherited member but isn't annotated with '@override' • lib/services/moment_service.dart:186:10 • annotate_overrides
 warning • The value of the local variable 'isPriceSensitive' isn't used • lib/services/places_service.dart:19:10 • unused_local_variable
   error • Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' • lib/widgets/challenge_card.dart:4:8 • uri_does_not_exist
-   info • Use a 'SizedBox' to add whitespace to a layout • lib/widgets/challenge_card.dart:57:30 • sized_box_for_whitespace
   error • Undefined name 'AppLocalizations' • lib/widgets/challenge_card.dart:105:18 • undefined_identifier
 warning • Unused import: 'glass_button.dart' • lib/widgets/comment_input.dart:6:8 • unused_import
 warning • Unused import: '../models/moment.dart' • lib/widgets/comment_input.dart:7:8 • unused_import
@@ -557,35 +519,24 @@ warning • Unused import: '../models/moment.dart' • lib/widgets/comment_input
    info • Unnecessary 'const' keyword • lib/widgets/nickname_selection_popup.dart:111:45 • unnecessary_const
   error • Too many positional arguments: 0 expected, but 1 found • lib/widgets/nickname_selection_popup.dart:137:35 • extra_positional_arguments_could_be_named
 
-268 issues found. (ran in 11.0s)
+249 issues found. (ran in 11.1s)
 
 > flutter test --machine
-{"protocolVersion":"0.1.1","runnerVersion":null,"pid":2508,"type":"start","time":0}
-{"protocolVersion":"0.1.1","runnerVersion":null,"pid":2508,"type":"start","time":0}
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":2521,"type":"start","time":0}
 {"suite":{"id":0,"platform":"vm","path":"/Users/builder/clone/test/widget_test.dart"},"type":"suite","time":0}
 {"test":{"id":1,"name":"loading /Users/builder/clone/test/widget_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":0}
 {"count":1,"time":3,"type":"allSuites"}
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":2521,"type":"start","time":0}
 {"suite":{"id":0,"platform":"vm","path":"/Users/builder/clone/test/widget_test.dart"},"type":"suite","time":0}
 {"test":{"id":1,"name":"loading /Users/builder/clone/test/widget_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":0}
 {"count":1,"time":3,"type":"allSuites"}
 
 [{"event":"test.startedProcess","params":{"vmServiceUri":null,"observatoryUri":null}}]
-{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":3515}
-{"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":3516}
-{"test":{"id":3,"name":"Initial test","suiteID":0,"groupIDs":[2],"metadata":{"skip":false,"skipReason":null},"line":171,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":4,"root_column":3,"root_url":"file:///Users/builder/clone/test/widget_test.dart"},"type":"testStart","time":3516}
-{"testID":3,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3639}
-{"success":true,"type":"done","time":3647}
-
-
-QA failed :|
-Flutter analyze found issues.
-
-[{"event":"test.startedProcess","params":{"vmServiceUri":null,"observatoryUri":null}}]
-{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":3515}
-{"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":3516}
-{"test":{"id":3,"name":"Initial test","suiteID":0,"groupIDs":[2],"metadata":{"skip":false,"skipReason":null},"line":171,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":4,"root_column":3,"root_url":"file:///Users/builder/clone/test/widget_test.dart"},"type":"testStart","time":3516}
-{"testID":3,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3639}
-{"success":true,"type":"done","time":3647}
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":3570}
+{"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":3571}
+{"test":{"id":3,"name":"Initial test","suiteID":0,"groupIDs":[2],"metadata":{"skip":false,"skipReason":null},"line":171,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":4,"root_column":3,"root_url":"file:///Users/builder/clone/test/widget_test.dart"},"type":"testStart","time":3571}
+{"testID":3,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3691}
+{"success":true,"type":"done","time":3699}
 
 
 QA failed :|
@@ -596,6 +547,17 @@ Flutter analyze found issues.
 
 Build failed :|
 Test run failed: Flutter analyze found issues.
+
+[{"event":"test.startedProcess","params":{"vmServiceUri":null,"observatoryUri":null}}]
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":3570}
+{"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":3571}
+{"test":{"id":3,"name":"Initial test","suiteID":0,"groupIDs":[2],"metadata":{"skip":false,"skipReason":null},"line":171,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":4,"root_column":3,"root_url":"file:///Users/builder/clone/test/widget_test.dart"},"type":"testStart","time":3571}
+{"testID":3,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3691}
+{"success":true,"type":"done","time":3699}
+
+
+QA failed :|
+Flutter analyze found issues.
 
 == QA failed, ending build ==
 
@@ -615,28 +577,27 @@ Start new build
 Build overview
 
 ID:
-67466244d6d00b583e4c9094
+674666279357e8df6e4db654
 Please provide this ID when you contact our support team
 Index:
-28
+30
 Status:
 failed
 Workflow:
 Default Workflow
 Started by:
-kaynelapps@gmail.com
-kaynelapps@gmail.com
+Github webhook
 Started:
-2 minutes ago
-Nov 27th, 2024 at 01:07 CET
+4 minutes ago
+Nov 27th, 2024 at 01:22 CET
 Duration:
-1m 53s
+2m 7s
 Machine:
 Mac mini M2
 Branch:
 main
 Commit:
-ecad67c
+0766dae
 Current configuration
 
 Flutter channel:
@@ -650,15 +611,19 @@ iOS
 Click on the build steps for details.
 
 Preparing build machine
-28s
+24s
 Fetching app sources
-3s
+4s
 Installing SDKs
-40s
+51s
 Installing dependencies
-21s
+25s
 Building iOS
 < 1s
+
+
+
+
 Publishing
 < 1s
 Cleaning up
