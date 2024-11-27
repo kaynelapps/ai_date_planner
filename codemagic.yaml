@@ -27,7 +27,7 @@ workflows:
       - build/ios/ipa/*.ipa
     publishing:
       app_store_connect:
-        api_key: AuthKey_QDVWVZNYHW.p8
-        api_key_id: QDVWVZNYHW
-        api_key_issuer_id: 1286bc9f-7590-4626-a04a-9acdd2431c04
-        apple_id: anaskay.13@gmail.com
+        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
+        api_key_id: $APP_STORE_API_KEY_ID
+        api_key_issuer_id: $APP_STORE_API_KEY_ISSUER_ID
+        apple_id: $APPLE_ID
