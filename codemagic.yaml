@@ -25,6 +25,6 @@ workflows:
     publishing:
       app_store_connect:
         submit_to_testflight: true
-        key_id: "QDVWVZNYHW"
-        key: "MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgUEApOWbKEM8XyPynbUkLsrq0beIPWUbIphZO2AeW8pigCgYIKoZIzj0DAQehRANCAAQsTEVN5T8OTTqtaCZnFOnBHAF+qPpW+mrrzrI94mG8BcBAUq0hTlIl7edT5ThrmBmLEARsVbzVdZu+C98w/5NJ"
-        issuer_id: "1286bc9f-7590-4626-a04a-9acdd2431c04"
+        api_key: "MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgUEApOWbKEM8XyPynbUkLsrq0beIPWUbIphZO2AeW8pigCgYIKoZIzj0DAQehRANCAAQsTEVN5T8OTTqtaCZnFOnBHAF+qPpW+mrrzrI94mG8BcBAUq0hTlIl7edT5ThrmBmLEARsVbzVdZu+C98w/5NJ"
+        api_key_id: "QDVWVZNYHW"
+        api_issuer_id: "1286bc9f-7590-4626-a04a-9acdd2431c04"
