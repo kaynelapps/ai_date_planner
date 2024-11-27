@@ -16,7 +16,15 @@ class AuthService {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final GoogleSignIn _googleSignIn = GoogleSignIn();
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
-
+  
+ Future<User?> signInWithCredential(AuthCredential credential) async {
+    try {
+      final userCredential = await _auth.signInWithCredential(credential);
+      return userCredential.user;
+    } on FirebaseAuthException catch (e) {
+      throw AuthException(e.message ?? 'Authentication failed');
+    }
+  }
   Future<bool> checkNicknameAvailability(String nickname) async {
     QuerySnapshot querySnapshot = await _firestore
         .collection('users')
